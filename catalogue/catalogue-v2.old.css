@@ -1,0 +1,109 @@
+/* @override 
+	https://www.interoute-ville.com/theme/interoute_desktop/catalogue/catalogue-v2.css */
+	
+.catalogue #zone2 {font-family: 'Open Sans'!important, sans-serif; color: #4a4a49;}
+.catalogue #zone2 a {color: #23b3dc;}
+a.green-trigger {color: #b6ce3b!important; }
+
+/* ------------------------------------------------------------ *\
+    Side bar
+\* ------------------------------------------------------------ */
+
+.catalogue .site-wrapper.wrapper {background-color: #ffffff; padding-top:30px; font-family: 'Open Sans'!important, sans-serif;}
+h1 {margin-bottom: 0!important; border: 0;}
+#my-selection-container {padding: 20px; }
+.ma-selection #my-selection-container {display: none; }
+
+#zone3 {padding-top: 0; }
+.myselection { background-color: #f7f7f5; color: #4a4a49!important; }
+.mysel-container {border-top: 0; }
+.block-title { border-bottom: 0;padding-left: 50px!important; }
+.mysel-type-title, .hist-type-title {  color: #4a4a49; }
+.myselection .qty-round, .history .qty-round { border: 0; background-color: #b6ce3b;}
+.qty-round-nb {color: #fff; }
+
+.mysel-footer .btn-primary, .hist-footer .btn-primary, .mysel-footer .btn-invert, .hist-footer .btn-invert { background-color: #23b3dc; color: #fff; border-radius: 4px; text-decoration: none; box-shadow: 0 3px 0 #098bac;}
+
+.mysel-footer .btn-primary:hover, .hist-footer .btn-primary:hover, .mysel-footer .btn-invert:hover, .hist-footer .btn-invert:hover { background-color: #0ba5cc; color: #fff; text-decoration: none; }
+
+i.icon-catal.icon-catal-chevrons {color: #23b3dc ; }
+
+/* ------------------------------------------------------------ *\
+    Search & List
+\* ------------------------------------------------------------ */
+
+#frm_simple_search {background-color: #fff; }
+#esf-form-zone {border: 0; background-color:#f7f7f5 ; }
+.esf-search-line #esf-btn-search { background: #23b3dc; border-radius: 4px; box-shadow: 0 4px 0 #098bac; border: 0; }
+.esf-search-line #esf-btn-search:hover { background: #0ba5cc; }
+.esf-as-list-filters .current a { background: #0ba5cc; color: #fff!important; }
+.esf-as-header {background: transparent; color: #23b3dc; }
+.esf-as-header:after, .esf-as-header:before { background: #23b3dc;}
+.esf-results-zone .esf-results-alpha-list .current {  background: #23b3dc; }
+.esf-results-zone .esf-results-alpha-list a  { color: #23b3dc; padding: 5px; }
+.esf-results-zone .esf-results-alpha-list a:hover  { text-decoration: none; color: #23b3dc;}
+.crd-list .crd-item .crd-button:hover {  color: #23b3dc; }
+.esf-results-alpha-filter {border: 0; }
+.esf-as-filters {border: 1px solid #e3e9ea!important; border-top: 1px!important; }
+
+h4.catal-results-title { border-bottom: 0; font-size: 12px!important; width: 100%; text-align: center;  background-color: #f7f7f5!important; color: #4a4a49!important; padding: 20px!important; }
+h3.catal-ex-item-title { font-family: 'Oswald', sans-serif; font-size: 28px; font-weight: 300; letter-spacing: 0.1em; color: #4a4a49; text-transform: uppercase; margin: 1 0 20px 0;  }
+h3.catal-ex-item-title a:hover { color: #23b3dc; text-decoration: none; }
+.catal-ex-item-group-title {border: 0; color: #4a4a49; }
+.catal-ex-item-group-title a {color: #4a4a49!important; }
+
+.catal-results-nb {font-size: 14px; }
+button.btn-primary.js-mySelection {background: #23b3dc; border-radius: 4px; border: 0; color: #fff; margin-bottom: 10px; box-shadow: 0 3px 0 #098bac;}
+
+
+/* ------------------------------------------------------------ *\
+    Details
+\* ------------------------------------------------------------ */
+
+a.btn-primary {text-decoration: none; }
+.catal-nav-ex a span {color:#23b3dc!important; }
+.catal-nav-ex a  {font-weight: 300!important; text-transform: uppercase!important; letter-spacing: 1px; font-size: 11px; }
+
+.catal-nav-ex .catal-nav-ex-link:focus, .catal-nav-ex .catal-nav-ex-link:hover { background: transparent; }
+.catal-nav-ex {border: 0; margin-bottom: 20px; }
+.catal-nav-ex .catal-nav-ex-sep { border-left: 1px solid #e6e4e1; height: 10px; vertical-align: middle; margin-bottom: 5px; }
+.catal-nav-ex .catal-nav-ex-link .icon-catal {
+    -webkit-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    transform: scale(0.5);
+    margin-bottom: 2px;
+    color: #23b3dc;
+}
+
+.catal-nav-ex .catal-nav-ex-more-link .icon-catal {
+    display: inline-block;
+    -webkit-transform: scale(0.5) rotate(-90deg);
+    -ms-transform: scale(0.5) rotate(-90deg);
+    transform: scale(0.5) rotate(-90deg);
+    vertical-align: middle;
+    color: #23b3dc;
+    margin-bottom: 3px;
+}
+
+.catal-ed-main {background: transparent; border: 0; padding: 30px 0; }
+img.catal-ed-main-media.ezimage-field {width: 100%; padding: 0; margin: 0; }
+.catal-ed-group-title, .catal-ed-activity-group, .catal-ed-group, .catal-other-ex-item {border: 0!important }
+.catal-other-ex-media {text-align: center!important; }
+.catal-other-ex-txt {padding-top: 10px; color:#4a4a49 ; }
+img.catal-other-ex-img.ezimage-field { width: 80%; margin:auto; }
+.catalogue #zone2 h2 {font-family: 'Oswald', sans-serif; font-size: 21px; font-weight: 400; letter-spacing: 0.05em; color: #4a4a49; text-transform: uppercase; padding-bottom: 7px; margin: 0; background: url(images/border.png) repeat-x 0 bottom; width: 100%; border: 0; }
+h3.catal-ed-activity-title.catal-ed-title {font-size: 15px; background: transparent; padding: 0; }
+.catal-nav-affix { border: 4px solid #e6e4e1; background-color: #f7f7f5; color: #23b3dc;}
+
+.catal-nav-affix .catal-nav-affix-link:focus:after, .catal-nav-affix .catal-nav-affix-link:hover:after, .catal-nav-affix .current .catal-nav-affix-link:after, .catal-nav-affix .catal-nav-affix-item.is-active .catal-nav-affix-link:after { border-right-color: #e6e4e1; }
+.catal-nav-affix .catal-nav-affix-link:focus:before, .catal-nav-affix .catal-nav-affix-link:hover:before, .catal-nav-affix .current .catal-nav-affix-link:before, .catal-nav-affix .catal-nav-affix-item.is-active .catal-nav-affix-link:before {left: 0;  border-left-color: #e6e4e1; }
+.catal-nav-affix .catal-nav-affix-link:focus, .catal-nav-affix .catal-nav-affix-link:hover, .catal-nav-affix .current .catal-nav-affix-link, .catal-nav-affix .catal-nav-affix-item.is-active .catal-nav-affix-link {   color: #23b3dc;  }
+
+/* ------------------------------------------------------------ *\
+    My selection
+\* ------------------------------------------------------------ */
+
+.mysel-cata-title .qty-round {background: #b6ce3b; border: 0; }
+.catal-ed-main-title .qty-round-big { background-color: #b6ce3b; }
+.catal-nav-affix .catal-nav-affix-link:focus .qty-round, .catal-nav-affix .catal-nav-affix-link:hover .qty-round, .catal-nav-affix .current .catal-nav-affix-link .qty-round, .catal-nav-affix .catal-nav-affix-item.is-active .catal-nav-affix-link .qty-round { background-color: #b6ce3b; }
+.myselection-list {margin-top: 20px; }

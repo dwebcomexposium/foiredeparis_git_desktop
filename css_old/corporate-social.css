@@ -1,0 +1,134 @@
+/*
+	
+	== Corporate
+	== Social links
+	.social-links --> .sl-## 
+	==> social links (@sidebar, homepage...)
+
+	.social-sharing --> .sr-##
+	==> to share an article (@article)
+
+
+*/
+.sr-list,
+.sl-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.sr-item,
+.sl-item {
+  display: inline;
+}
+[class*="sr-link"],
+[class*="sl-link"] {
+  width: 180px;
+  padding: 0.6em 1em;
+  font-size: 1.6rem;
+  text-align: left;
+  color: #FFF;
+}
+[class*="sr-link"]:focus,
+[class*="sl-link"]:focus,
+[class*="sr-link"]:hover,
+[class*="sl-link"]:hover {
+  color: #FFF;
+}
+[class*="sr-link"] .icon,
+[class*="sl-link"] .icon {
+  margin-right: 2em;
+}
+.sr-item-txt,
+.sl-item-txt {
+  text-transform: none;
+  font-weight: bold;
+}
+.sr-link-facebook,
+.sl-link-facebook {
+  background: #36589b;
+  border-bottom-color: #263e6e;
+}
+.sr-link-facebook:focus,
+.sl-link-facebook:focus,
+.sr-link-facebook:hover,
+.sl-link-facebook:hover {
+  background: #294375;
+  border-bottom-color: #1c2d4f;
+}
+.sr-link-twitter,
+.sl-link-twitter {
+  background: #31aae1;
+  border-bottom-color: #1b88ba;
+}
+.sr-link-twitter:focus,
+.sl-link-twitter:focus,
+.sr-link-twitter:hover,
+.sl-link-twitter:hover {
+  background: #1c8fc3;
+  border-bottom-color: #166e96;
+}
+.sr-link-pinterest,
+.sl-link-pinterest {
+  background: #cb2027;
+  border-bottom-color: #96181d;
+}
+.sr-link-pinterest:focus,
+.sl-link-pinterest:focus,
+.sr-link-pinterest:hover,
+.sl-link-pinterest:hover {
+  background: #9f191f;
+  border-bottom-color: #731216;
+}
+.sr-link-mail,
+.sl-link-mail {
+  background: #0c8192;
+  border-bottom-color: #074f59;
+}
+.sr-link-mail:focus,
+.sl-link-mail:focus,
+.sr-link-mail:hover,
+.sl-link-mail:hover {
+  background: #085763;
+  border-bottom-color: #042e34;
+}
+/*
+ * Social sharing only
+ */
+.social-sharing {
+  margin: 1em 0;
+  padding: 1em 0;
+  border: 1px solid #e3e9ea;
+  border-width: 1px 0;
+}
+.sr-title {
+  margin-bottom: 0.5em;
+  font-weight: bold;
+  color: #474d4e;
+}
+/*
+ * Social links only
+ */
+[class*="sl-link"] {
+  width: 70px;
+  padding-left: .5em;
+  padding-right: .5em;
+  text-align: center;
+}
+[class*="sl-link"] .icon {
+  font-size: 1.8rem;
+  margin-right: 0;
+}
+.sl-item-txt {
+  position: absolute !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  clip: rect(1px, 1px, 1px, 1px) !important;
+}

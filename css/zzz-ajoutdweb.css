@@ -1,0 +1,321 @@
+/*MAJ 01/09/2017 */
+
+.tt-dropdown-menu {
+    margin-top: 14px !important;
+    font-size: 1.3em;
+}
+.tt-highlight {
+    color: #ea1e4e;
+}
+.tt-suggestion a:focus, .tt-suggestion a:hover {
+    background: #ea1e4e none repeat scroll 0 0;
+}
+
+/*Surcharge module Newsletter 17/01/2017*/
+.nf-main-content {
+  padding:0;
+  margin: 0;
+  background: none;
+  color: #000;
+}
+
+/** CIBLE MA SELECTION POUR FIXER LA TAILLE DANS LE CATALOGUE EXPOSANT ET PRODUIT 20/02/2017 **/
+.node168280 .mod-catal.myselection, .node180491 .mod-catal.myselection{
+ width: 305px;
+}
+
+
+/** RETIRE LE BOUTON "VOIR PLUS" DES PAGES CONTENANT UNE LISTE DE PRODUIT 21/02/2017**/
+
+.liste-produit .btn{
+display:none;
+}
+
+/** MODIFICATION PAGINATION PAGE ACTUALITES 06/03/2017**/
+
+.article_list .cxp-pagination .pagination{
+margin:auto;
+}
+
+.article_list .cxp-pagination .pagination a{
+padding: 2px 5px 1px;
+width:auto;
+}
+
+.article_list .cxp-pagination .pagin-prev, .article_list .cxp-pagination .pagin-next{
+display:inline-block;
+}
+
+
+/*** PINTEREST ***/
+
+.section-pinterest{
+text-align:center;
+}
+
+section.section-pinterest span:first-child {
+    max-width: 1100px;
+}
+
+section.section-pinterest span[class*="_hd"] {
+    display:none;
+}
+section.section-pinterest span[class*="_bd"] {
+    height:auto !important;
+}
+section.section-pinterest span:first-child {
+    box-shadow: none;
+}
+section.section-pinterest span[class*="_bd"] span[class*="_ct"] span[class*="_col"] span[class*="_img"] {
+    box-shadow: none;
+}
+
+
+/*** PINTEREST UNE IMAGE ***/
+
+.section-pinte{
+text-align:center;
+}
+
+section.section-pinte span[class*="_bd"] {
+    height:auto !important;
+}
+section.section-pinte span:first-child {
+    box-shadow: none;
+}
+section.section-pinte span[class*="_bd"] span[class*="_ct"] span[class*="_col"] span[class*="_img"] {
+    box-shadow: none;
+}
+section.section-pinte span[class*="_ft"] {
+    display:none;
+}
+
+/*** LIEN 3 ARTICLE ***/
+.article-wrapper .article-content a.lien3 {
+    text-align: center;
+    color: #fff;
+    margin-left: -398px;
+    background-color: #EA1E4E;
+    padding: 5px 11px;
+    border-radius: 25px;
+    margin-top: 130px;
+    text-decoration: none;
+    position: absolute;
+    min-width: 340px;
+}
+
+.rub-fda .article-wrapper .article-content a.lien3 {
+background-color: #72a143;
+}
+.article-wrapper .article-content a.lien3:hover {
+    background-color: rgba(55, 55, 55, .85);
+    transition: 0.5s;
+}
+.article-wrapper .article-content a.lien2 img {
+    margin: 0.5em;
+}
+
+
+/*** MODIFICATION CSS PAGE JEU CONCOURS ***/
+
+body.jeuconcoursfoiredeparis .article-wrapper .article-content p.focus1.txtcenter {
+    text-align: center !important;
+}
+
+/* Centrage du bouton de la billetterie */
+.txtcenter {
+  text-align: center;
+}
+
+
+/*Blocs Pinterest*/
+section.section-pinte {
+    text-align: center;
+}
+/*Fin blocs pinterest*/
+
+
+
+/*EVTS HSM */
+
+.page-events.node370988 .logo, .parent370990 .logo{
+    display: inline-block;
+    width: 163px;
+    height: 129px;
+    background: url(images/logo-fdp-hsm.png) no-repeat 0 0;
+}
+.page-events.node370988 .header .logo, .parent370990 .header .logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.page-events.node370988 .logo, .parent370990 .logo { background: url(images/logo-fdp-hsm@2x.png) no-repeat 0 0; 
+		-webkit-background-size: 100% 100%; 
+		        background-size: 100% 100%; 
+	}
+.page-events.node370988 .header .header-inner, .parent370990 .header .header-inner{
+    position: relative;
+    padding-left: 180px;
+}
+
+/*Fin EVTS HSM*/
+
+
+body.rub-fda #zone2 .liste-produit {
+margin-bottom:10px;
+}
+
+
+/** MODIF ARTICLE VUE FULL LE MAG **/
+
+.lemag .article-wrapper.stopic_full .article-intro {
+    top: 785px;
+}
+.article-wrapper.stopic_full .article-intro{
+   top : 600px;
+}
+
+
+/*** Lien focus1 edito dans article ***/
+
+
+.article #zone3 .edito .focus1 a:before, .article_list #zone3 .edito.produits .focus1 a:before,.inside.remonterproduitlien .focus1 a:before, .page-rubric #zone2 div.block.block-page.edito p.focus1 a:before{
+    content: '';
+    display: inline-block;
+    position: relative;
+    width: 22px;
+    height: 12px;
+    top: -1px;
+    margin-right: 14px;
+    vertical-align: middle;
+    background: url(images/ico-arrow-right@2x.png) no-repeat 0 0;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+
+.article #zone3 .edito .focus1 a, .article_list #zone3 .edito.produits .focus1 a, .inside.remonterproduitlien .focus1 a, .page-rubric #zone2 div.block.block-page.edito p.focus1 a{
+    display: inline-block;
+    padding: 11px 19px 9px;
+    border-radius: 39px;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #ea1e4e;
+    transition: background .5s;
+    -webkit-transition: background .5s;
+    margin-top: 15px;
+}
+.page-rubric #zone2 div.block.block-page.edito p.focus1{
+text-align:center;
+}
+
+/**** titre home remonter produit ****/
+
+
+.inside.remonterproduitlien .focus1 {
+text-align:center;
+padding-bottom:25px;
+}
+.main-title-with-link.remonterproduit {
+    text-align: center;
+background: url(images/bg-pattern.png) repeat-x 0 0;
+margin: 93px 0 5px 0;
+}
+
+.main-title-with-link.remonterproduit .main-title {
+    font-size: 34px;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+    color: #373737;
+    text-transform: uppercase;
+    background: #fff;
+    display: inline-block;
+    padding: 0 38px 13px;
+    margin-top: -35px;
+}
+
+.main-title-with-link.remonterproduit .main-title:after {
+    content: 'Foire de Paris';
+    display: block;
+    margin-top: -5px;
+    font-size: 13px;
+    font-weight: 300;
+    letter-spacing: 0.2em;
+}
+
+
+/*** Titre page liste produits/marques/exposants ***/
+
+.mod-catal h1{
+font-size:34px;
+}
+.catalogue.fiche .mod-catal h1{
+font-size:45px;
+}
+
+
+/**** LISTE ARTICLES SECTEURS ****/
+
+
+.master-grille .cxp-pagination .grid-la-list { margin-left: -49px; }
+.master-grille .cxp-pagination .grid-la-list:after { content: ''; display: block; width: 100%; clear: both; }
+.master-grille .cxp-pagination .gla-item { float: left; width: 33.3%; padding-left: 49px; }
+.master-grille .cxp-pagination .gla-item a { text-decoration: none; overflow: hidden; }
+.master-grille .cxp-pagination .gla-item img { transition: .5s; -webkit-transition: .5s; 
+	-webkit-transform: scale(1); 
+	    -ms-transform: scale(1); 
+	     -o-transform: scale(1); 
+	        transform: scale(1); 
+}
+.master-grille .cxp-pagination .gla-item:hover img { 
+	-webkit-transform: scale(1.1); 
+	    -ms-transform: scale(1.1); 
+	     -o-transform: scale(1.1); 
+	        transform: scale(1.1); 
+}
+.master-grille .cxp-pagination .gla-item:hover .gla-item-title { font-weight: 700; color: #373737; }
+.master-grille .cxp-pagination .gla-item:hover .gla-item-content { background: none; }
+.master-grille .cxp-pagination .gla-item-content { position: static; min-height: 139px; }
+.master-grille .cxp-pagination .gla-item-tag { top: 175px; left: calc(50% + 25px); padding: 4px 26px 5px; font-size: 11px; font-weight: 300; letter-spacing: 0.2em; text-transform: uppercase; background: #ea1e4e; 
+	-webkit-transform: translateX(-50%); 
+	    -ms-transform: translateX(-50%); 
+	     -o-transform: translateX(-50%); 
+	        transform: translateX(-50%); 
+}
+.master-grille .cxp-pagination .gla-item-title { font-size: 24px; line-height: 1.11; font-weight: 300; letter-spacing: 0.05em; padding-top: 22px; position: relative; }
+.master-grille .cxp-pagination .gla-item-title:before { content: ''; position: absolute; height: 22px; top: 0; left: -8px; right: -8px; background: #fff; }
+.master-grille .cxp-pagination .gla-item { 
+	-webkit-box-shadow: none; 
+	        box-shadow: none; 
+}
+
+.master-grille .cxp-pagination .pagination { margin-bottom: 62px; border: 0; }
+.master-grille .cxp-pagination .pagination a { width: 34px; padding: 2px 0 1px; border-radius: 35px; font-size: 32px; font-weight: 300; color: #373737; text-decoration: none; text-align: center; }
+.master-grille .cxp-pagination .pagination li + li { margin-left: 13px; }
+
+.master-grille .cxp-pagination .pagination .is-active a,
+.master-grille .cxp-pagination .pagination a:hover { color: #fff; background: #373737; }
+
+.master-grille .cxp-pagination .pagin-prev,
+.master-grille .cxp-pagination .pagin-next,
+.master-grille .cxp-pagination .gla-btn-read-more,
+.master-grille .cxp-pagination .gla-item-desc { display: none; }
+
+.master-grille .grid-la-list .gla-item:nth-child(3n+1) { clear: both; }
+
+
+/****TABLE4 DANS ARTICLE****/
+
+.article-content table.table4 tbody tr {
+    background: transparent;
+}
+.article-content table.table4 tbody tr td {
+    border: 0;
+}
+.article-content table.table4 tbody tr td:first-child {
+    width: 322px;
+}

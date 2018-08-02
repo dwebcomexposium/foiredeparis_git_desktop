@@ -1,0 +1,80 @@
+.catalogue #main .edito {
+    background:initial !important;
+}
+
+.catalogue .esf-search-line #esf-btn-search {
+    width: 24%;
+    background: #EA1E4E none repeat scroll 0% 0%;
+    border-bottom: 0.4rem solid rgba(55, 55, 55, 0.2);
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.catalogue .esf-results-zone .esf-results-alpha-list .current {
+    position: relative;
+    padding: 0.2rem 0.5rem 0.5rem;
+    background: #EA1E4E none repeat scroll 0% 0%;
+    color: #FFF;
+    font-weight: 300;
+}
+
+
+.catalogue .esf-search-line #esf-btn-search:hover { background-color: #f02d5b }
+
+.pagin-item.is-active a {
+    background: #EA1E4E none repeat scroll 0% 0%;
+    color: white !important;
+    text-decoration: none;
+}
+
+.catalogue .esf-as-header p {
+    padding-top: 12px;
+}
+
+.catalogue .esf-as-list-filters .current a {
+    position: relative;
+    color: white !important;
+    background: #EA1E4E none repeat scroll 0% 0%;
+}
+
+#filtersExhibitorsModal .esf-as-panel-content li label {
+    font-size: 1.3rem;
+    margin-top: 0px !important;
+}
+
+.social-sharing { display: none !important; }
+
+.catal-results-display { display: none !important; } 
+
+#contactModal { display: none !important; } 
+
+.catalogue #main .esf-search-line { position: relative; }
+
+.typeahead-section-name {
+    color: #EA1E4E;
+}
+
+.tt-highlight {
+    color: black;
+}
+
+.tt-suggestion a:focus, .tt-suggestion a:hover {
+    text-decoration: none;
+    background: #EA1E4E;
+    color: white !important;
+}
+
+#esf_new_search_new { padding-left: 8px; }
+
+.catalogue #main .catal-ex-item.is-premium .catal-ex-item-title, .catalogue #main .catal-ex-item.is-premium .catal-ex-item-title a {
+    color: #EA1E4E !important;
+    text-decoration: underline 
+}
+
+.esf-tree li input { float: none; }
+
+.esf-tree .esf-has-sub-items .esf-choice-container input, .esf-tree .esf-has-sub-items .esf-choice-container label { display: inline-block !important; }
+
+
+.esf-tree li label { display: inline !important;}

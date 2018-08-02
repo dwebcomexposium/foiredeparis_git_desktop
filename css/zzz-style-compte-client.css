@@ -1,0 +1,46 @@
+/*client area */
+.site-banner.is-stuck .col { width: 42%; }
+#main { overflow: hidden; }
+.bar .bar-inner { max-width: 1150px; }
+#cxpmClientAccountWidget { font-family: 'BrandonGrotesque', sans-serif!important; float: right; color: #000;  margin-top:-11px }
+#cxpmClientAccountWidget .widget-text span a { font-size: 14px!important;  }
+#cxpmClientAccountWidget .widget-my-selection i, #cxpmClientAccountWidget .widget-notifications i {font-size: 25px!important; line-height:35px!important}
+#cxpmClientAccountWidget .widget-text span a :after { content: ''; position: absolute; width: 1px;  height: 10px; top: 0; margin: 4px -35px; opacity: .2; background: #000;}
+.site-banner.is-stuck .bar { display: block; position: fixed; }
+.site-banner.is-stuck .bar .bar-inner .nav-secondary, .site-banner.is-stuck .bar .bar-inner .counters { display: none; }
+.site-banner.is-stuck .bar #cxpmClientAccountWidget {color: #ffffff; top:30px; position:fixed; display: block; right: 100px; }
+.site-banner.is-stuck #cxpmClientAccountWidget .widget-text span a :after { background: none; } 
+.site-banner.is-stuck #cxpmClientAccountWidget .widget-text span a { font-size: 17px!important;  }
+
+#cxpmClientAccountWidget .widget-text .widget-logout a.widgetCapLogout {
+    display: none;
+}
+/**
+
+
+#cxpmClientAccountWidget .widget-text span.widget-logout {
+display:none;
+}
+
+
+
+.site-banner.is-stuck .header #cxpmClientAccountWidget {
+float:right !important;
+}
+
+
+.site-banner.is-stuck .header #cxpmClientAccountWidget{
+margin-left: 0px !important;
+}
+
+#cxpmClientAccountWidget {
+    position: absolute;
+    margin-top: 12px;
+}
+
+.site-banner.is-stuck #cxpmClientAccountWidget {
+  position: initial;
+    margin-top: 0px;
+}
+
+**/

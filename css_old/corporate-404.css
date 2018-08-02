@@ -1,0 +1,22 @@
+/*
+	
+	== Corporate
+	== Error 404
+	.error-page --> .ep-##
+
+*/
+.ep-illustration {
+  display: none;
+}
+.error-page .list-articles.has-2col > .la-item {
+  width: 41%;
+}
+.error-page .list-articles.has-2col .la-column .la-item-content {
+  padding-right: 4em;
+}
+.error-page .main-title {
+  text-transform: none;
+}
+.ep-form {
+  margin: 2em 0;
+}

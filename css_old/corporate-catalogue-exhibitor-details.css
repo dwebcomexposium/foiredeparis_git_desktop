@@ -1,0 +1,948 @@
+/*
+
+		== Corporate / Catalogue
+		== Details of an exhibitor
+		.catal-ex-details ==> .catal-ed-###
+			contains .catal-ed-products ==> .catal-edp-###
+*/
+.catalogue {
+  /*
+ * == Details of an exhibitor (FR: fiche exposant)
+ */
+}
+.catalogue .link-read-more .icon {
+  margin-right: 0.5em;
+  display: inline-block;
+  padding-bottom: 2px;
+  font-size: 1.2rem;
+}
+.catalogue button.link-read-more {
+  background: none;
+  border: 0;
+}
+.catalogue a,
+.catalogue [class^="btn"] {
+  -webkit-transition: background .2s, color .2s, border .2s;
+          transition: background .2s, color .2s, border .2s;
+}
+.catalogue [class^="btn"],
+.catalogue .btn {
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 1.25;
+  color: #2b2f2f;
+  background: none;
+}
+.catalogue [class^="btn"] .icon,
+.catalogue .btn .icon,
+.catalogue [class^="btn"] .icon-catal,
+.catalogue .btn .icon-catal {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 0.5em;
+  line-height: 1;
+}
+.catalogue .link-read-more {
+  color: #910f4f;
+  font-weight: bold;
+}
+.catalogue .link-view-all {
+  display: inline-block;
+  padding: 0.25em 1em;
+  color: #474d4e;
+  text-decoration: none;
+}
+.catalogue .link-view-all .icon,
+.catalogue .link-view-all .icon-catal {
+  margin-left: 0.5em;
+  font-size: 1.1rem;
+  color: #910f4f;
+}
+.catalogue [class^="btn"],
+.catalogue .btn {
+  border: 4px solid transparent;
+  border-width: 0 0 4px;
+  padding: 0.4em 2em;
+  text-align: center;
+  font-family: Gudea, Helvetica, Arial, sans-serif;
+  font-size: 1.6rem;
+}
+.catalogue [class^="btn"] .txt-btn,
+.catalogue .btn .txt-btn {
+  vertical-align: middle;
+}
+.catalogue .btn-primary {
+  color: #ffffff;
+  background-color: #910f4f;
+  border-color: #570930;
+}
+.catalogue .btn-secondary {
+  color: #ffffff;
+  background: #7ea203;
+  border-color: #4d6302;
+}
+.catalogue .btn-third {
+  color: #ffffff;
+  background-color: #cc327e;
+  border-color: #99255e;
+}
+.catalogue .btn-dark {
+  color: #FFF;
+  background: #2b2b2e;
+  border-color: #1b1b1d;
+}
+.catalogue .btn-invert {
+  color: #474d4e;
+  background: #e3e9ea;
+  border-color: #bfcccf;
+}
+.catalogue .btn-light {
+  color: #474d4e;
+  background: #e3e9ea;
+  border-color: transparent;
+  text-transform: none;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+.catalogue .btn-light .icon {
+  font-size: 1rem;
+}
+.catalogue .btn-disabled {
+  color: #a9b0b0;
+  cursor: default;
+  background: #f4f4f4;
+  border-color: #e3e9ea;
+}
+.catalogue .btn-link {
+  border: 0;
+  background: none;
+}
+.catalogue .btn-small {
+  font-size: 1.2rem;
+  padding: 0.5em 1em;
+  font-weight: normal;
+}
+.catalogue .btn-medium {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+.catalogue .btn-large {
+  font-size: 2rem;
+  padding-top: .35em;
+  padding-bottom: .35em;
+}
+.catalogue .btn-xlarge {
+  font-size: 1.8rem;
+  font-weight: bold;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.catalogue .btn-xlarge small {
+  text-transform: none;
+  display: block;
+  font-weight: normal;
+}
+.catalogue .btn-xlarge .icon {
+  vertical-align: top;
+  margin: 0 0.5em -0.5em -0.5em;
+  font-size: 2.5rem;
+}
+.catalogue .catal-ed-group-title {
+  border-bottom: 1px solid #e3e9ea;
+  padding: 0.5rem 0;
+}
+.catalogue .catal-ed-group-title [class$="-view-all"],
+.catalogue .catal-ed-group-footer [class$="-view-all"] {
+  margin-top: 0.2rem;
+  font-size: 1.4rem;
+}
+.catalogue .catal-ed-main-title {
+  display: inline-block;
+  border-bottom: none;
+  margin: 0;
+  font-size: 2.4rem;
+  color: #0c8192;
+}
+.catalogue .catal-ed-main-title .qty-round-big {
+  background-color: #0c8192;
+}
+.catalogue .catal-ed-title {
+  font-size: 1.8rem;
+}
+.catalogue .catal-ex-details .edito .catal-ex-item-buttons-small {
+  float: right;
+}
+.catalogue .catal-ex-details .edito .catal-ex-item-buttons-small + h1 {
+  overflow: hidden;
+  border-bottom: none;
+  line-height: 1.3;
+}
+.catalogue .catal-ex-details .edito .btn-primary {
+  margin-left: 0.8rem;
+  padding: 0.6rem 1.2rem 0.4rem 1.2rem;
+  font-size: 1.3rem;
+}
+.catalogue .catal-ex-details .edito .btn-primary .icon-catal {
+  margin-right: 0;
+  vertical-align: 0;
+  font-size: 1.1rem;
+}
+.catalogue .catal-ex-details .edito .btn-primary .icon-catal-star-empty {
+  -webkit-transform: scale(1.6);
+      -ms-transform: scale(1.6);
+          transform: scale(1.6);
+}
+.catalogue .catal-ex-details .edito .animation-txt {
+  position: absolute !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  clip: rect(1px, 1px, 1px, 1px) !important;
+}
+.catalogue .catal-ed-main {
+  border: 4px solid #e3e9ea;
+  margin-bottom: 2rem;
+  padding: 1em;
+  background-color: #f6f9f9;
+}
+.catalogue .catal-ed-main .catal-ed-main-media {
+  float: left;
+  max-width: 225px;
+  margin: 0 1em 2em 0;
+}
+.catalogue .catal-ed-main .catal-ed-main-stand {
+  float: right;
+  width: 33%;
+  margin-left: 2.4em;
+  padding: 1em;
+  background-color: white;
+}
+.catalogue .catal-ed-main .catal-ed-main-stand-title {
+  display: inline-block;
+  border-bottom: none;
+  margin-bottom: 0;
+  font-size: 1.8rem;
+  color: #474d4e;
+}
+.catalogue .catal-ed-main .catal-ed-main-stand-view-all {
+  float: right;
+  margin-top: 0;
+  color: #00525e;
+}
+.catalogue .catal-ed-main .catal-ed-main-stand-view-all .icon-catal {
+  margin-right: 0.5rem;
+  font-size: 1.2rem;
+}
+.catalogue .catal-ed-main .catal-ed-main-stand-view-all-link {
+  font-weight: bold;
+  color: inherit;
+}
+.catalogue .catal-ed-main .catal-ed-main-stand-ref {
+  font-size: 1.2rem;
+}
+.catalogue .catal-ed-main .catal-ed-main-stand-ref .icon-catal {
+  color: #566e02;
+}
+.catalogue .catal-ed-main .catal-ed-main-stand-ref-link {
+  color: #2b2f2f;
+}
+.catalogue .catal-ed-main .catal-ed-main-stand-name {
+  margin-top: 0;
+  font-size: 1.2rem;
+}
+.catalogue .catal-ed-main .catal-ed-main-address {
+  line-height: 1.3;
+  font-size: 1.8rem;
+}
+.catalogue .catal-ed-main .catal-ed-main-url {
+  display: block;
+  margin-top: 1.5em;
+}
+.catalogue .catal-ed-main .catal-ed-main-social {
+  margin-top: 0.3em;
+}
+.catalogue .catal-ed-main .catal-ed-main-desc {
+  clear: both;
+}
+.catalogue .catal-ed-main .catal-ed-main-desc-title {
+  border-bottom: none;
+  margin-bottom: 0;
+  font-size: 1.8rem;
+  color: #474d4e;
+}
+.catalogue .catal-ed-main .catal-ed-main-desc-content {
+  margin-top: 0;
+  line-height: 1.43;
+  font-size: 1.4rem;
+}
+.catalogue .catal-ed-main .catal-ed-main-cat {
+  margin-top: 1em;
+}
+.catalogue .catal-ed-main .catal-ed-main-cat-title {
+  display: inline-block;
+  border-bottom: none;
+  margin: 1rem 0 0.5rem;
+  font-size: 1.8rem;
+  color: #474d4e;
+}
+.catalogue .catal-ed-main .catal-ed-main-cat-view-all {
+  float: right;
+  margin-top: 1.2rem;
+  color: #00525e;
+}
+.catalogue .catal-ed-main .catal-ed-main-cat-view-all .icon-catal {
+  margin-right: 0.5em;
+  font-size: 1.2rem;
+}
+.catalogue .catal-ed-main .catal-ed-main-cat-view-all-link {
+  font-weight: bold;
+  color: inherit;
+}
+.catalogue .catal-ed-main .catal-ed-main-cat-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  padding-left: 0;
+}
+.catalogue .catal-ed-main .catal-ed-main-cat-list::after {
+  content: "";
+  display: table;
+  clear: both;
+  border-collapse: collapse;
+}
+.catalogue .catal-ed-main .catal-ed-main-cat-item {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 0 auto;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+  max-width: 29%;
+  display: table;
+  margin-bottom: 1em;
+  list-style-type: none;
+  line-height: 1.2;
+  color: #474d4e;
+}
+.catalogue .catal-ed-main .catal-ed-main-cat-icon {
+  display: table-cell;
+  padding-top: 3px;
+  font-size: 2.4rem;
+}
+.catalogue .catal-ed-main .catal-ed-main-cat-link {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0 2em 0 0.8rem;
+  font-size: 1.4rem;
+  color: #2b2f2f;
+}
+.catalogue .catal-ed-group {
+  border-top: 4px solid #0c8192;
+  border-bottom: 1px solid #e3e9ea;
+  margin-bottom: 1em;
+}
+.catalogue .catal-ed-orgs .catal-ed-orgs-type:before,
+.catalogue .catal-ed-agents .catal-ed-agents-title:before {
+  content: '';
+  position: relative;
+  top: -2px;
+  display: inline-block;
+  border: 4px solid #0c8192;
+  margin-right: 0.5em;
+}
+.catalogue .catal-ed-url {
+  font-size: 1.4rem;
+}
+.catalogue .catal-ed-url .catal-ed-url-link {
+  text-decoration: none;
+}
+.catalogue .catal-ed-url .icon-catal {
+  margin-left: 6px;
+  vertical-align: middle;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #909b9d;
+}
+.catalogue .catal-ed-url span {
+  text-decoration: underline;
+}
+.catalogue .catal-ed-activity .catal-ed-activity-group {
+  border-bottom: 1px solid #e3e9ea;
+  padding: 1em 1em 1em 0;
+}
+.catalogue .catal-ed-activity .catal-ed-activity-title {
+  float: left;
+  width: 25%;
+  margin-top: 0;
+}
+.catalogue .catal-ed-activity .catal-ed-activity-subtitle,
+.catalogue .catal-ed-activity .catal-ed-activity-list {
+  overflow: hidden;
+  margin: 0 0 0 25%;
+  padding-left: 0;
+  line-height: 1;
+}
+.catalogue .catal-ed-activity .catal-ed-activity-subtitle {
+  margin-bottom: 1em;
+  line-height: 2;
+  font-size: 1.6rem;
+}
+.catalogue .catal-ed-activity .catal-ed-activity-subtitle ~ .catal-ed-activity-subtitle {
+  margin-top: 1em;
+}
+.catalogue .catal-ed-activity .catal-ed-activity-item {
+  display: inline-block;
+  margin: 0 0.25em 0.5em 0;
+}
+.catalogue .catal-ed-activity .catal-ed-activity-link {
+  display: inline-block;
+  line-height: 1;
+  padding: 0.5rem 0.8rem 0.7rem 0.8rem;
+  text-decoration: none;
+  color: #474d4e;
+  background-color: #f6f9f9;
+}
+.catalogue .catal-ed-activity .catal-ed-activity-link:focus,
+.catalogue .catal-ed-activity .catal-ed-activity-link:active,
+.catalogue .catal-ed-activity .catal-ed-activity-link:hover {
+  color: #910f4f;
+  background-color: #e3e9ea;
+}
+.catalogue .catal-ed-activity .catal-ed-activity-item-view-all {
+  font-weight: bold;
+}
+.catalogue .catal-ed-activity .catal-ed-activity-item-view-all .icon-catal {
+  margin-right: 1rem;
+  vertical-align: middle;
+  color: #909b9d;
+}
+.catalogue .catal-ed-activity .catal-ed-activity-item-view-all .catal-ed-activity-link {
+  color: #566e02;
+}
+.catalogue .catal-ed-products {
+  /* .catal-edp-stand-list {
+		//
+	}*/
+}
+.catalogue .catal-ed-products .catal-ed-products-view-all {
+  float: right;
+  margin-top: 0;
+  color: #00525e;
+}
+.catalogue .catal-ed-products .catal-edp-list {
+  margin-top: 0;
+  padding-left: 0;
+}
+.catalogue .catal-ed-products .catal-edp-list .catal-ex-item {
+  padding-left: 0;
+  padding-right: 0;
+}
+.catalogue .catal-ed-products .catal-edp-item {
+  list-style-type: none;
+  display: block;
+  margin: 1em 0 0 0;
+  padding: 0;
+  border-bottom: 0.1rem solid #e3e9ea;
+}
+.catalogue .catal-ed-products .catal-edp-item::after {
+  content: "";
+  display: table;
+  clear: both;
+  border-collapse: collapse;
+}
+.catalogue .catal-ed-products .catal-edp-img {
+  float: left;
+  max-width: 125px;
+  margin-right: 1.2rem;
+}
+.catalogue .catal-ed-products .catal-edp-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  margin-bottom: 2.5rem;
+  padding-right: 2.4rem;
+}
+.catalogue .catal-ed-products .catal-edp-title {
+  width: 100%;
+  border-bottom: 1px solid #e3e9ea;
+  margin-bottom: 1.1rem;
+  padding-bottom: 1em;
+  line-height: 1.2;
+  font-size: 1.8rem;
+  color: #474d4e;
+}
+.catalogue .catal-ed-products .catal-edp-title-link {
+  text-decoration: none;
+  color: inherit;
+}
+.catalogue .catal-ed-products .catal-edp-title-link:focus,
+.catalogue .catal-ed-products .catal-edp-title-link:active,
+.catalogue .catal-ed-products .catal-edp-title-link:hover {
+  text-decoration: underline;
+  color: #00525e;
+}
+.catalogue .catal-ed-products .catal-edp-desc {
+  display: inline-block;
+  width: 70%;
+  margin: 0;
+  padding-right: 2rem;
+}
+.catalogue .catal-ed-products .catal-edp-country {
+  font-size: 1.4rem;
+}
+.catalogue .catal-ed-products .catal-edp-brand {
+  font-size: 1.4rem;
+}
+.catalogue .catal-ed-products .catal-edp-brand-copy {
+  vertical-align: middle;
+  color: #910f4f;
+}
+.catalogue .catal-ed-products .catal-edp-stand {
+  margin-top: 0.7em;
+  font-size: 1.2rem;
+}
+.catalogue .catal-ed-products .catal-edp-stand::after {
+  content: "";
+  display: table;
+  clear: both;
+  border-collapse: collapse;
+}
+.catalogue .catal-ed-products .catal-edp-stand-title {
+  float: left;
+}
+.catalogue .catal-ed-products .catal-edp-stand-item {
+  list-style-type: none;
+  float: left;
+  margin-left: 0.7rem;
+}
+.catalogue .catal-ed-products .catal-edp-stand-item:not(:first-child) {
+  border-left: 1px solid #e3e9ea;
+  padding-left: 0.7rem;
+}
+.catalogue .catal-ed-products .catal-edp-stand-item .icon-catal {
+  color: #566e02;
+}
+.catalogue .catal-ed-products .catal-edp-stand-link {
+  border-right: 0;
+  color: #2b2f2f;
+}
+.catalogue .catal-ed-products .catal-edp-stand-more-link {
+  margin-left: 2rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #00525e;
+}
+.catalogue .catal-ed-products .catal-edp-stand-more-link .icon-catal {
+  margin-right: 0.5rem;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+.catalogue .catal-ed-products .catal-edp-stand-more-link span {
+  text-decoration: underline;
+}
+.catalogue .catal-ed-products .catal-edp-cat {
+  float: right;
+  border-left: 1px solid #e3e9ea;
+  padding: 0.3rem 1em 0.5rem 1em;
+  width: 30%;
+}
+.catalogue .catal-ed-products .catal-edp-cat-list {
+  padding-left: 0;
+}
+.catalogue .catal-ed-products .catal-edp-cat-item {
+  list-style-type: none;
+  font-size: 1.2rem;
+  color: #474d4e;
+}
+.catalogue .catal-ed-products .catal-edp-cat-item .icon-catal {
+  color: #0c8192;
+}
+.catalogue .catal-ed-products .catal-edp-cat-more {
+  margin-top: 1em;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.catalogue .catal-ed-products .catal-edp-cat-more-link {
+  text-decoration: none;
+  color: #00525e;
+}
+.catalogue .catal-ed-products .catal-edp-cat-more-link .icon-catal {
+  margin-right: 0.5rem;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+.catalogue .catal-ed-products .catal-edp-cat-more-link span {
+  text-decoration: underline;
+}
+.catalogue .catal-ed-products .catal-ed-group-footer {
+  padding: 1rem 0;
+}
+.catalogue .catal-ed-products .catal-ed-group-footer::after {
+  content: "";
+  display: table;
+  clear: both;
+  border-collapse: collapse;
+}
+.catalogue .catal-ed-brands .catal-ed-brands-view-all {
+  float: right;
+  margin-top: 0;
+  color: #00525e;
+}
+.catalogue .catal-ed-brands .catal-ed-brands-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin: 2rem 0 0.7rem -1.7rem;
+  padding-left: 0;
+}
+.catalogue .catal-ed-brands .catal-ed-brands-item {
+  width: calc(33.33% - 1.7rem);
+  list-style-type: none;
+  border: 2px solid #e3e9ea;
+  margin: 0 0 1.3rem 1.7rem;
+}
+.catalogue .catal-ed-brands .catal-ed-brands-link {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1.2rem 2.2rem 1.2rem 0.9rem;
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #474d4e;
+}
+.catalogue .catal-ed-brands .catal-ed-brands-link:focus,
+.catalogue .catal-ed-brands .catal-ed-brands-link:active,
+.catalogue .catal-ed-brands .catal-ed-brands-link:hover {
+  text-decoration: underline;
+  color: #910f4f;
+  background-color: #f4f4f4;
+}
+.catalogue .catal-ed-brands .catal-ed-brands-img {
+  display: block;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  width: 70px;
+  margin-right: 12px;
+}
+.catalogue .catal-ed-events .catal-ed-events-view-all {
+  float: right;
+  margin-top: 0;
+  color: #00525e;
+}
+.catalogue .catal-ed-events .catal-ed-events-list {
+  padding: 0.5em 0 0.4rem 0;
+}
+.catalogue .catal-ed-events .catal-ed-events-list::after {
+  content: "";
+  display: table;
+  clear: both;
+  border-collapse: collapse;
+}
+.catalogue .catal-ed-events .catal-ed-events-item {
+  float: left;
+  width: calc(50% - 1.1rem);
+  list-style-type: none;
+  border: 1px solid #e3e9ea;
+  margin-bottom: 1em;
+}
+.catalogue .catal-ed-events .catal-ed-events-item:nth-child(odd) {
+  clear: left;
+  margin-right: 2.2rem;
+}
+.catalogue .catal-ed-events .catal-ed-events-link {
+  display: block;
+  text-decoration: none;
+  padding: 1rem;
+}
+.catalogue .catal-ed-events .catal-ed-events-link::after {
+  content: "";
+  display: table;
+  clear: both;
+  border-collapse: collapse;
+}
+.catalogue .catal-ed-events .catal-ed-events-link .icon-catal {
+  float: left;
+  color: #0c8192;
+}
+.catalogue .catal-ed-events .catal-ed-events-img {
+  float: left;
+  max-width: 70px;
+}
+.catalogue .catal-ed-events .catal-ed-events-content {
+  overflow: hidden;
+  padding-left: 1rem;
+}
+.catalogue .catal-ed-events .catal-ed-events-title {
+  margin: 0 0 0.6rem 0;
+  line-height: 1.1;
+}
+.catalogue .catal-ed-events .catal-ed-events-when {
+  overflow: hidden;
+  padding-left: 0.6rem;
+  line-height: 1.2;
+  font-size: 1.4rem;
+  color: #0c8192;
+}
+.catalogue .catal-ed-events .catal-ed-events-time {
+  display: block;
+  font-size: 1.2rem;
+}
+.catalogue .catal-ed-events .catal-ed-events-link:focus,
+.catalogue .catal-ed-events .catal-ed-events-link:active,
+.catalogue .catal-ed-events .catal-ed-events-link:hover {
+  background-color: #f4f4f4;
+}
+.catalogue .catal-ed-events .catal-ed-events-link:focus .catal-ed-events-title,
+.catalogue .catal-ed-events .catal-ed-events-link:active .catal-ed-events-title,
+.catalogue .catal-ed-events .catal-ed-events-link:hover .catal-ed-events-title {
+  text-decoration: underline;
+  color: #910f4f;
+}
+.catalogue .catal-ed-events .catal-ed-events-link:focus .catal-ed-events-when,
+.catalogue .catal-ed-events .catal-ed-events-link:active .catal-ed-events-when,
+.catalogue .catal-ed-events .catal-ed-events-link:hover .catal-ed-events-when,
+.catalogue .catal-ed-events .catal-ed-events-link:focus .icon-catal,
+.catalogue .catal-ed-events .catal-ed-events-link:active .icon-catal,
+.catalogue .catal-ed-events .catal-ed-events-link:hover .icon-catal {
+  color: #910f4f;
+}
+.catalogue .catal-ed-orgs {
+  /* .catal-ed-orgs-town {
+		//
+	}*/
+}
+.catalogue .catal-ed-orgs .catal-ed-orgs-list {
+  margin-top: 0;
+  padding: 2em 0 2em 0;
+}
+.catalogue .catal-ed-orgs .catal-ed-orgs-list::after {
+  content: "";
+  display: table;
+  clear: both;
+  border-collapse: collapse;
+}
+.catalogue .catal-ed-orgs .catal-ed-orgs-item {
+  float: left;
+  width: 33%;
+  list-style-type: none;
+}
+.catalogue .catal-ed-orgs .catal-ed-orgs-item:not(:first-child) {
+  border-left: 1px solid #e3e9ea;
+  padding-left: 1em;
+}
+.catalogue .catal-ed-orgs .catal-ed-orgs-type {
+  margin-bottom: 0.8rem;
+  font-size: 1.8rem;
+}
+.catalogue .catal-ed-orgs .catal-ed-orgs-name {
+  display: block;
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+.catalogue .catal-ed-orgs .catal-ed-orgs-addr {
+  display: block;
+}
+.catalogue .catal-ed-orgs .catal-ed-orgs-zipcode {
+  display: block;
+}
+.catalogue .catal-ed-orgs .catal-ed-orgs-country {
+  display: block;
+}
+.catalogue .catal-ed-orgs .catal-ed-orgs-url {
+  display: block;
+  margin-top: 1em;
+}
+.catalogue .catal-ed-orgs .btn-primary {
+  margin-top: 0.5em;
+}
+.catalogue .catal-ed-agents {
+  padding-bottom: 1.4rem;
+}
+.catalogue .catal-ed-agents .catal-ed-agents-title {
+  margin-top: 1.2rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #474d4e;
+}
+.catalogue .catal-ed-agents .catal-ed-agents-title-link {
+  color: #0c8192;
+}
+.catalogue .catal-ed-agents .catal-ed-agents-list {
+  margin: 1rem 0 0.3rem 0;
+  padding-left: 0;
+}
+.catalogue .catal-ed-agents .catal-ed-agents-item {
+  display: inline-block;
+  margin: 0 1em 0.2rem 0;
+}
+.catalogue .catal-ed-agents .catal-ed-agents-item:after {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  border: 2px solid #7ea203;
+  margin-left: 1em;
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+.catalogue .catal-ed-partners {
+  padding-bottom: 1em;
+}
+.catalogue .catal-ed-partners .catal-ed-partners-txt {
+  padding-right: 2em;
+  font-size: 1.8rem;
+  color: #474d4e;
+}
+.catalogue .catal-ed-partners .catal-ed-partners-txt .catal-ed-partners-place {
+  font-weight: bold;
+}
+.catalogue .catal-ed-partners .catal-ed-partners-txt .catal-ed-partners-link {
+  color: inherit;
+}
+.catalogue .catal-ed-pr .catal-ed-pr-list {
+  padding: 1rem 0 0;
+}
+.catalogue .catal-ed-pr .catal-ed-pr-list::after {
+  content: "";
+  display: table;
+  clear: both;
+  border-collapse: collapse;
+}
+.catalogue .catal-ed-pr .catal-ed-pr-item {
+  float: left;
+  width: calc(50% - 1.4rem);
+  list-style-type: none;
+  border: 2px solid #e3e9ea;
+  margin: 0 0 1em 2.8rem;
+  padding: 1rem;
+}
+.catalogue .catal-ed-pr .catal-ed-pr-item:nth-child(odd) {
+  clear: left;
+  margin-left: 0;
+}
+.catalogue .catal-ed-pr .catal-ed-pr-title {
+  margin: 0;
+  line-height: 1.3;
+  font-size: 1.8rem;
+}
+.catalogue .catal-ed-pr .catal-ed-pr-date {
+  margin: 0 0 1.8rem 0;
+  line-height: 1.3;
+  font-size: 1.2rem;
+  color: #0c8192;
+}
+.catalogue .catal-ed-pr .catal-ed-pr-img {
+  float: left;
+  margin: 0 1rem 1rem 0;
+}
+.catalogue .catal-ed-pr .catal-ed-pr-txt {
+  overflow: hidden;
+  line-height: 1.14285714;
+  font-size: 1.4rem;
+}
+.catalogue .catal-ed-pr .catal-ed-pr-link-video {
+  clear: both;
+  display: block;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #910f4f;
+}
+.catalogue .catal-ed-pr .catal-ed-pr-link-video .icon-catal {
+  margin-right: 0.2rem;
+  vertical-align: middle;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #910f4f;
+}
+.catalogue .catal-ed-pr .catal-ed-pr-link-video span {
+  text-decoration: underline;
+}
+.catalogue .catal-ed-pr .catal-ed-pr-actions {
+  clear: left;
+  margin-top: 4px;
+}
+.catalogue .catal-ed-pr .btn-primary {
+  width: calc(50% - 4px);
+  margin-top: 0.6rem;
+  padding: 7px 6px 0 6px;
+  font-weight: bold;
+  text-transform: none;
+  text-align: left;
+}
+.catalogue .catal-ed-pr .btn-primary .icon-catal {
+  float: left;
+  font-size: 2rem;
+}
+.catalogue .catal-ed-pr .btn-primary .txt-btn {
+  position: relative;
+  top: -3px;
+  overflow: hidden;
+  display: block;
+  font-size: 1rem;
+}
+.catalogue .catal-ed-pr .btn-primary .txt-btn .info-btn {
+  text-transform: uppercase;
+}
+.catalogue .catal-ed-pr .btn-primary .txt-btn .lang-btn {
+  font-weight: normal;
+}
+.catalogue .catal-ed-pr .btn-primary + .btn-primary {
+  margin-left: 8px;
+}
+.catalogue .catal-results-selectboxes {
+  margin-bottom: 1rem;
+}
+.catalogue .catal-ed-main .catal-ex-item-stand-more {
+  float: right;
+}
+.catalogue .catal-edp-item .catal-ex-tooltip-list {
+  padding-top: 1.5rem;
+}
+.catalogue .catal-edp-desc .catal-ex-item-container {
+  padding-left: 1.5rem;
+}
+
+/*# sourceMappingURL=maps/corporate-catalogue-exhibitor-details.css.map */
