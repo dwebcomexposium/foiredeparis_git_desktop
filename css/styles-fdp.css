@@ -859,7 +859,7 @@ body.loaded .main-navigation { display: block; }
 .list-articles.tpsfort .main-title-with-link { position: relative; top: -41px; margin-bottom: -11px; text-align: center; }
 
 .list-articles.tpsfort .block-title { font-size: 34px; font-weight: 700; letter-spacing: 0.1em; color: #373737; text-transform: uppercase; display: inline-block; padding: 6px 40px; background: #fff; }
-.list-articles.tpsfort .block-title:after { content: 'Foire de Paris 2018'; display: block; margin-top: -5px; font-size: 13px; font-weight: 300; letter-spacing: 0.2em; color: #373737; }
+.list-articles.tpsfort .block-title:after { content: 'Foire de Paris 2019'; display: block; margin-top: -5px; font-size: 13px; font-weight: 300; letter-spacing: 0.2em; color: #373737; }
 .rub-fda .list-articles.tpsfort .block-title:after { content: "Foire de Paris"; display: block; margin-top: -5px; font-size: 13px; font-weight: 300; letter-spacing: 0.2em; color: #373737; }
 
 
