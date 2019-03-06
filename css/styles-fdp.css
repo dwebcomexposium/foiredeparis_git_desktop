@@ -1031,7 +1031,7 @@ body.loaded .main-navigation { display: block; }
 .partner.partner-home .link-view-all:hover { background: #373737; }
 
 .partner.partner-home .main-title { font-size: 34px; position: relative; display: inline-block; top: -35px; padding: 0 41px 14px; background: #fff; }
-.partner.partner-home .main-title:after { content: 'Foire de Paris 2018'; display: block; margin-top: -5px; font-size: 13px; font-weight: 300; letter-spacing: 0.2em; }
+.partner.partner-home .main-title:after { content: 'Foire de Paris 2019'; display: block; margin-top: -5px; font-size: 13px; font-weight: 300; letter-spacing: 0.2em; }
 .rub-fda .partner.partner-home .main-title:after { content: "Hors-Série Maison by Foire de Paris"; display: block; margin-top: -5px; font-size: 13px; font-weight: 300; letter-spacing: 0.2em; }
 
 
