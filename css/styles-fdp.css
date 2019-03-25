@@ -2776,7 +2776,7 @@ i.icon-catal.icon-catal-demo:before { display: inline-block; width: 16px; height
 .quicklinks.liste-produit { width: 100%; max-width: 100%; margin-top: 89px; text-align: center; background: url(images/produit-dash.png) repeat-x 0 0; }
 
 .liste-produit .block-title { font-size: 34px; font-weight: 700; letter-spacing: 0.1em; color: #373737; text-transform: uppercase; position: relative; display: inline-block; top: -35px; padding: 0 50px; z-index: 4; background: #fff; }
-.liste-produit .block-title:after { content: 'sur Foire de Paris 2018'; display: block; margin-top: -4px; font-size: 13px; font-weight: 300; letter-spacing: 0.2em; }
+.liste-produit .block-title:after { content: 'sur Foire de Paris 2019'; display: block; margin-top: -4px; font-size: 13px; font-weight: 300; letter-spacing: 0.2em; }
 .rub-fda .liste-produit .block-title:after { content: "sur Foire de Paris Hors série Maison"; display: block; margin-top: -4px; font-size: 13px; font-weight: 300; letter-spacing: 0.2em; }
 
 
