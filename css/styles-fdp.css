@@ -2776,7 +2776,7 @@ i.icon-catal.icon-catal-demo:before { display: inline-block; width: 16px; height
 .quicklinks.liste-produit { width: 100%; max-width: 100%; margin-top: 89px; text-align: center; background: url(images/produit-dash.png) repeat-x 0 0; }
 
 .liste-produit .block-title { font-size: 34px; font-weight: 700; letter-spacing: 0.1em; color: #373737; text-transform: uppercase; position: relative; display: inline-block; top: -35px; padding: 0 50px; z-index: 4; background: #fff; }
-.liste-produit .block-title:after { content: 'sur Foire de Paris 2019'; display: block; margin-top: -4px; font-size: 13px; font-weight: 300; letter-spacing: 0.2em; }
+.liste-produit .block-title:after { content: 'sur Foire de Paris 2018'; display: block; margin-top: -4px; font-size: 13px; font-weight: 300; letter-spacing: 0.2em; }
 .rub-fda .liste-produit .block-title:after { content: "sur Foire de Paris Hors série Maison"; display: block; margin-top: -4px; font-size: 13px; font-weight: 300; letter-spacing: 0.2em; }
 
 
@@ -3477,7 +3477,7 @@ li.event-type-li { display: inline-block; }
  
 
 /* ------------------------------------------------------------ *\
-	CATALOGUE
+	NEW STYLES
 \* ------------------------------------------------------------ */
 
 #cxpmClientAccountWidget { margin-top: 0 !important; }
@@ -3510,7 +3510,7 @@ body #cxpmClientAccountWidget .widget-text span a { display: block; font-size: 1
 #zone1 .link-toggle i { top: 0; margin-left: 10px; }
 
 
-/*  Liste produits  */
+/*  Product List  */
 .catal-produit { width: calc(100% - 240px); padding-left: 50px; margin-left: auto; }
 
 .mod-catal.edito { margin: 15px 0 25px; }
@@ -3533,7 +3533,7 @@ body #cxpmClientAccountWidget .widget-text span a { display: block; font-size: 1
 
 .exposant .mod-catal.catal-nav-ex { border-bottom: 0; padding: 35px 0 0; margin: 0; }
 
-/*   Search  */
+/*  Top Search  */
 .exposant .mod-catal.exhibitor-search-form { position: relative; }
 
 .exposant .mod-catal .esf-search-line { position: relative; margin-bottom: 0; }
@@ -3568,16 +3568,19 @@ body #cxpmClientAccountWidget .widget-text span a { display: block; font-size: 1
 
 .exposant .esf-as-heading { display: none; }
 
+/*  Small search  */
 .exposant .mod-catal.catal-nav-ex .btn-primary { display: inline-block; padding: 5px 19px 6px 22px; border-radius: 12px; background: #ededed; font-size: 12px; color: #2a2a2a; font-weight: normal; letter-spacing: .05em; -webkit-transition: opacity .4s; -o-transition: opacity .4s; transition: opacity .4s; }
 .exposant .mod-catal.catal-nav-ex .btn-primary .icon-catal { margin-right: -5px; }
 .exposant .mod-catal.catal-nav-ex .btn-primary:hover { text-decoration: none; color: #2a2a2a; opacity: .8; }
 .exposant .mod-catal.catal-nav-ex .btn-primary:hover .icon-catal { color: #2a2a2a; }
 
+/*  Return button  */
 .exposant .mod-catal.catal-nav-ex .catal-nav-ex-more-link#return-to-result { display: inline-block !important; padding: 5px 15px; border-radius: 12px; background: #ededed; font-size: 12px; line-height: 1.25; font-weight: normal; letter-spacing: .05em; -webkit-transition: opacity .4s; -o-transition: opacity .4s; transition: opacity .4s; }
 .exposant .mod-catal.catal-nav-ex .catal-nav-ex-more-link#return-to-result:hover { color: #2a2a2a; opacity: .8; }
 .exposant .mod-catal.catal-nav-ex .catal-nav-ex-more-link#return-to-result .icon-catal-chevrons { -webkit-transform: translateY(1px); -ms-transform: translateY(1px); transform: translateY(1px); display: inline-block; margin-right: 10px; font-size: 0; width: 17px; height: 10px; background: url(images/arrow-return@2x.png) no-repeat center; background-size: 100%; }
 .exposant .mod-catal.catal-nav-ex .catal-nav-ex-more-link#return-to-result .icon-catal-chevrons:before { display: none; }
 
+/*  Content  */
 .exposant .catal-ex { width: calc(100% - 240px); padding-left: 50px; margin-top: 113px !important; margin-left: auto; }
 .exposant .catal-ex-item { padding: 47px 0 41px; margin: 0; }
 
@@ -3759,7 +3762,7 @@ body #cxpmClientAccountWidget .widget-text span a { display: block; font-size: 1
 .image-block:before { content: ''; position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%); width: 100vw; height: 1px; background: url(images/bg-pattern.png) repeat-x 0 0; background-size: auto; }
 .image-block .image__content { position: relative; z-index: 5; max-width: 784px; padding: 28px; margin: 115px auto 57px; background: #fff; }
 
-/*  Scrollbar  */
+/*  Malihu Custom Scrollbar  */
 .mCSB_scrollTools { width: 29px; margin: 13px 0; opacity: 1; }
 .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar { width: 7px; border-radius: 5px; background: #2a2a2a !important; opacity: 1 !important; }
 .mCSB_scrollTools .mCSB_draggerRail { width: 1px; background: #ededed; }
@@ -3790,11 +3793,11 @@ body #cxpmClientAccountWidget .widget-text span a { display: block; font-size: 1
 .exhibitor-details .mod-catal .catal-ed-activity .catal-prd-group-title {padding-bottom: 10px; }
 
 .exhibitor-details .mod-catal .catal-ed-activity .catal-ed-activity-group { padding: 9px 0; }
-.exhibitor-details .mod-catal .catal-ed-activity .catal-ed-activity-list { margin: 0 -9px; }
-.exhibitor-details .mod-catal .catal-ed-activity .catal-ed-activity-item { margin: 0; padding: 0 5px; }
+.exhibitor-details .mod-catal .catal-ed-activity .catal-ed-activity-list { margin: -5px -9px; }
+.exhibitor-details .mod-catal .catal-ed-activity .catal-ed-activity-item { margin: 0; padding: 5px; }
 .exhibitor-details .mod-catal .catal-ed-activity .catal-ed-activity-link { padding: 0 15px; background: #ededed; font-size: 15px; line-height: 24px; border-radius: 15px; letter-spacing: .05em; font-weight: normal; color: #373737; }
 
-/*  Marques Content  */
+/*  Brand Content  */
 .exhibitor-details .mod-catal .catal-ed-main-title, 
 .exhibitor-details .mod-catal .catal-prd-main-title { padding: 0; font-size: 17px; color: #373737; font-weight: bold; letter-spacing: .05em; }
 
@@ -3811,17 +3814,18 @@ body #cxpmClientAccountWidget .widget-text span a { display: block; font-size: 1
 .exhibitor-details .mod-catal .catal-prd-main .catal-ed-main-desc-title, 
 .exhibitor-details .mod-catal .catal-prd-main .catal-prd-main-desc-title { display: none; }
 
-.exhibitor-details .mod-catal .catal-ed-main { position: relative; display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; padding-left: 288px; }
+.exhibitor-details .mod-catal .catal-ed-main { position: relative; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; -ms-flex-wrap: wrap; flex-wrap: wrap; min-height: 330px; padding-left: 288px; }
 .exhibitor-details .mod-catal .catal-ed-main:after { content: ''; display: table; line-height: 0; clear: both; }
 
 /*  Image  */
 .exhibitor-details .mod-catal .catal-ed-main > img { position: absolute; top: 3px; left: 0; display: block; width: 240px; height: 180px; padding: 28px; border: 1px solid #ededed; text-align: center; }
-.exhibitor-details .mod-catal .catal-ed-main-desc { position: relative; margin-bottom: 50px; -webkit-transition: padding .4s; -o-transition: padding .4s; transition: padding .4s; }
-.exhibitor-details .mod-catal .catal-ed-main-desc:after { content: ''; position: absolute; bottom: 0; left: 0; width: 100%; max-width: 532px; height: 1px; background: url(images/bg-pattern.png) repeat-x 0 bottom; background-size: auto; opacity: .2; }
+.exhibitor-details .mod-catal .catal-ed-main-desc { margin-bottom: 30px; }
+.exhibitor-details .mod-catal .catal-ed-main-desc.long { position: relative; margin-bottom: 50px; -webkit-transition: padding .4s; -o-transition: padding .4s; transition: padding .4s; }
+.exhibitor-details .mod-catal .catal-ed-main-desc.long:after { content: ''; position: absolute; bottom: 0; left: 0; width: 100%; max-width: 532px; height: 1px; background: url(images/bg-pattern.png) repeat-x 0 bottom; background-size: auto; opacity: .2; }
 
 /*  Content  */
-.exhibitor-details .mod-catal .catal-ed-main-desc-content { position: relative; max-height: 146px; overflow: hidden; -webkit-transition: max-height .6s; -o-transition: max-height .6s; transition: max-height .6s; }
-.exhibitor-details .mod-catal .catal-ed-main-desc-content:after { content: ''; position: absolute; right: 0; bottom: 0; left: 0; height: 100px; background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(80%, #fff)); background: -webkit-linear-gradient(top, transparent 0%, #fff 80%); background: -o-linear-gradient(top, transparent 0%, #fff 80%); background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, #fff 80%); pointer-events: none; -webkit-transition: opacity .4s, visibility .4s; -o-transition: opacity .4s, visibility .4s; transition: opacity .4s, visibility .4s; }
+.exhibitor-details .mod-catal .long .catal-ed-main-desc-content { position: relative; max-height: 146px; overflow: hidden; -webkit-transition: max-height .6s; -o-transition: max-height .6s; transition: max-height .6s; }
+.exhibitor-details .mod-catal .long .catal-ed-main-desc-content:after { content: ''; position: absolute; right: 0; bottom: 0; left: 0; height: 100px; background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(80%, #fff)); background: -webkit-linear-gradient(top, transparent 0%, #fff 80%); background: -o-linear-gradient(top, transparent 0%, #fff 80%); background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, #fff 80%); pointer-events: none; -webkit-transition: opacity .4s, visibility .4s; -o-transition: opacity .4s, visibility .4s; transition: opacity .4s, visibility .4s; }
 
 /*  Description  */
 .exhibitor-details .mod-catal .catal-ed-main-desc .desc-read-more-wrapper { position: absolute; bottom: 0; left: 0; z-index: 5; -webkit-transform: translateY(50%); -ms-transform: translateY(50%); transform: translateY(50%); display: inline-block; padding-right: 10px; background: #fff; }
@@ -3849,7 +3853,7 @@ body #cxpmClientAccountWidget .widget-text span a { display: block; font-size: 1
 .exhibitor-details .mod-catal .catal-ed-main .catal-ed-main-social-link img { display: block; }
 
 /*  Stand  */
-.exhibitor-details .mod-catal .catal-ed-main .catal-ed-main-stand { -webkit-box-ordinal-group: 4; -ms-flex-order: 3; order: 3; padding: 0; margin-left: 0; background: transparent; color: #ea1e4e; }
+.exhibitor-details .mod-catal .catal-ed-main .catal-ed-main-stand { width: 100%; -webkit-box-ordinal-group: 4; -ms-flex-order: 3; order: 3; padding: 0; margin-left: 0; background: transparent; color: #ea1e4e; }
 
 .exhibitor-details .mod-catal .catal-ed-main .catal-ed-main-stand-title, 
 .exhibitor-details .mod-catal .catal-ed-main .catal-prd-main-stand-title, 
@@ -3930,7 +3934,7 @@ body #cxpmClientAccountWidget .widget-text span a { display: block; font-size: 1
 .exhibitor-details .mod-catal .catal-ed-products .catal-edp-stand-item + .catal-edp-stand-item:before { content: ''; position: absolute; top: 50%; left: -16px; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); border-radius: 100%; width: 6px; height: 6px; background: #ededed; }
 .exhibitor-details .mod-catal .catal-ed-products .catal-edp-stand-item .icon-catal { display: none; }
 
-/*  Marques  */
+/*  Brands  */
 .exhibitor-details .mod-catal .catal-ed-brands { margin-top: 66px; margin-bottom: 0; }
 
 .exhibitor-details .mod-catal .catal-ed-brands .catal-ed-group-title, 
@@ -4011,13 +4015,16 @@ body #cxpmClientAccountWidget .widget-text span a { display: block; font-size: 1
 
 .produit .esf-as-heading { display: none; }
 
+/*  Small search  */
 .produit .mod-catal.catal-nav-ex .btn-primary { display: inline-block; padding: 5px 19px 6px 22px; border-radius: 12px; background: #ededed; font-size: 12px; font-weight: normal; letter-spacing: .05em; -webkit-transition: opacity .4s; -o-transition: opacity .4s; transition: opacity .4s; }
 .produit .mod-catal.catal-nav-ex .btn-primary .icon-catal { margin-right: -5px; }
 .produit .mod-catal.catal-nav-ex .btn-primary:hover { text-decoration: none; color: #2a2a2a; opacity: .8; }
 .produit .mod-catal.catal-nav-ex .btn-primary:hover .icon-catal { color: #2a2a2a; }
 
+/*  Content  */
 .produit .catal-ex { display: -webkit-box !important; display: -ms-flexbox !important; display: flex !important; -ms-flex-wrap: wrap; flex-wrap: wrap; width: calc(100% - 240px); padding-left: 0; margin-top: 86px !important; margin-right: -25px; margin-left: auto; }
 
+/*  Product  */
 .produit .mod-catal .catal-ex-item { position: relative; -ms-flex-wrap: wrap; flex-wrap: wrap; width: 33.33%; padding: 26px 25px 0; margin: 0 0 23px; background: none; }
 .produit .mod-catal .catal-ex-item-img { width: 100%; max-height: 240px; border-width: 1px 1px 0 1px; border-style: solid; border-color: #ededed; margin-right: 0; }
 
@@ -4135,7 +4142,7 @@ body #cxpmClientAccountWidget .widget-text span a { display: block; font-size: 1
 .product-details .mod-catal .catal-ed-activity .catal-ed-activity-item { margin: 0; padding: 0 5px; }
 .product-details .mod-catal .catal-ed-activity .catal-ed-activity-link { padding: 0 15px; background: #ededed; font-size: 15px; line-height: 24px; border-radius: 15px; letter-spacing: .05em; font-weight: normal; color: #373737; }
 
-/*  Marque Content  */
+/*  Brand Content  */
   .product-details .mod-catal .catal-prd-main .catal-prd-main-brand { display: none; }
 
 .product-details .mod-catal .catal-prd-infos .catal-prd-infos-group { padding: 0; border-bottom: 0; }
@@ -4156,14 +4163,15 @@ body #cxpmClientAccountWidget .widget-text span a { display: block; font-size: 1
 
 /*  Image  */
 .product-details .mod-catal .catal-prd-main > img { float: left; width: 530px; text-align: center; margin-right: 50px; margin-top: 3px; }
-.product-details .mod-catal .catal-prd-main-desc { position: relative; padding: 0; margin-bottom: 20px; -webkit-transition: padding .4s; -o-transition: padding .4s; transition: padding .4s; }
-.product-details .mod-catal .catal-prd-main-desc:after { content: ''; display: block; width: 100%; max-width: 502px; -webkit-transform: translateY(-30px); -ms-transform: translateY(-30px); transform: translateY(-30px); margin-left: auto; height: 1px; background: url(images/bg-pattern.png) repeat-x 0 bottom; background-size: auto; opacity: .2; }
+.product-details .mod-catal .catal-prd-main-desc { margin-bottom: 20px; }
+.product-details .mod-catal .catal-prd-main-desc.long { position: relative; padding: 0; -webkit-transition: padding .4s; -o-transition: padding .4s; transition: padding .4s; }
+.product-details .mod-catal .catal-prd-main-desc.long:after { content: ''; display: block; width: 100%; max-width: 502px; -webkit-transform: translateY(-30px); -ms-transform: translateY(-30px); transform: translateY(-30px); margin-left: auto; height: 1px; background: url(images/bg-pattern.png) repeat-x 0 bottom; background-size: auto; opacity: .2; }
 
 /*  Content  */
 .product-details .mod-catal .catal-prd-main-content { overflow: hidden; }
 
-.product-details .mod-catal .catal-prd-main-desc-content { position: relative; max-height: 146px; overflow: hidden; -webkit-transition: max-height .6s, padding .6s .4s; -o-transition: max-height .6s, padding .6s .4s; transition: max-height .6s, padding .6s .4s; }
-.product-details .mod-catal .catal-prd-main-desc-content:after { content: ''; position: absolute; right: 0; bottom: 0; left: 0; height: 100px; background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(80%, #fff)); background: -webkit-linear-gradient(top, transparent 0%, #fff 80%); background: -o-linear-gradient(top, transparent 0%, #fff 80%); background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, #fff 80%); pointer-events: none; -webkit-transition: opacity .4s, visibility .4s; -o-transition: opacity .4s, visibility .4s; transition: opacity .4s, visibility .4s; }
+.product-details .mod-catal .long .catal-prd-main-desc-content { position: relative; max-height: 146px; overflow: hidden; -webkit-transition: max-height .6s, padding .6s .4s; -o-transition: max-height .6s, padding .6s .4s; transition: max-height .6s, padding .6s .4s; }
+.product-details .mod-catal .long .catal-prd-main-desc-content:after { content: ''; position: absolute; right: 0; bottom: 0; left: 0; height: 100px; background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(80%, #fff)); background: -webkit-linear-gradient(top, transparent 0%, #fff 80%); background: -o-linear-gradient(top, transparent 0%, #fff 80%); background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, #fff 80%); pointer-events: none; -webkit-transition: opacity .4s, visibility .4s; -o-transition: opacity .4s, visibility .4s; transition: opacity .4s, visibility .4s; }
 
 /*  Description  */
 .product-details .mod-catal .catal-prd-main-desc .desc-read-more-wrapper { position: relative; z-index: 5; -webkit-transform: translateY(-14px); -ms-transform: translateY(-14px); transform: translateY(-14px); display: inline-block; padding-right: 10px; background: #fff; }
@@ -4273,7 +4281,7 @@ body #cxpmClientAccountWidget .widget-text span a { display: block; font-size: 1
 .product-details .image-block .image__content { margin-top: 99px; }
 
 /* ------------------------------------------------------------ *\
-	Marques List
+	Marque List
 \* ------------------------------------------------------------ */
 
 .marque .site-wrapper { position: relative; }
@@ -4440,12 +4448,13 @@ body #cxpmClientAccountWidget .widget-text span a { display: block; font-size: 1
 
 /*  Image  */
 .brand-details .mod-catal .catal-prd-main > img { position: absolute; top: 3px; left: 0; display: block; width: 240px; height: 180px; padding: 28px; border: 1px solid #ededed; text-align: center; }
-.brand-details .mod-catal .catal-prd-main-desc { position: relative; padding: 0; margin-bottom: 50px; -webkit-transition: padding .4s; -o-transition: padding .4s; transition: padding .4s; }
-.brand-details .mod-catal .catal-prd-main-desc:after { content: ''; position: absolute; bottom: -7px; right: 0; width: 100%; max-width: 750px; height: 1px; background: url(images/bg-pattern.png) repeat-x 0 bottom; background-size: auto; opacity: .2; }
+.brand-details .mod-catal .catal-prd-main-desc { margin-bottom: 20px; }
+.brand-details .mod-catal .catal-prd-main-desc.long { position: relative; padding: 0; margin-bottom: 50px; -webkit-transition: padding .4s; -o-transition: padding .4s; transition: padding .4s; }
+.brand-details .mod-catal .catal-prd-main-desc.long:after { content: ''; position: absolute; bottom: -7px; right: 0; width: 100%; max-width: 750px; height: 1px; background: url(images/bg-pattern.png) repeat-x 0 bottom; background-size: auto; opacity: .2; }
 
 /*  Content  */
-.brand-details .mod-catal .catal-prd-main-desc-content { position: relative; max-height: 146px; overflow: hidden; -webkit-transition: max-height .6s; -o-transition: max-height .6s; transition: max-height .6s; }
-.brand-details .mod-catal .catal-prd-main-desc-content:after { content: ''; position: absolute; right: 0; bottom: 0; left: 0; height: 100px; background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(80%, #fff)); background: -webkit-linear-gradient(top, transparent 0%, #fff 80%); background: -o-linear-gradient(top, transparent 0%, #fff 80%); background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, #fff 80%); pointer-events: none; -webkit-transition: opacity .4s, visibility .4s; -o-transition: opacity .4s, visibility .4s; transition: opacity .4s, visibility .4s; }
+.brand-details .mod-catal .long .catal-prd-main-desc-content { position: relative; max-height: 146px; overflow: hidden; -webkit-transition: max-height .6s; -o-transition: max-height .6s; transition: max-height .6s; }
+.brand-details .mod-catal .long .catal-prd-main-desc-content:after { content: ''; position: absolute; right: 0; bottom: 0; left: 0; height: 100px; background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(80%, #fff)); background: -webkit-linear-gradient(top, transparent 0%, #fff 80%); background: -o-linear-gradient(top, transparent 0%, #fff 80%); background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, #fff 80%); pointer-events: none; -webkit-transition: opacity .4s, visibility .4s; -o-transition: opacity .4s, visibility .4s; transition: opacity .4s, visibility .4s; }
 
 /*  Description  */
 .brand-details .mod-catal .catal-prd-main-desc .desc-read-more-wrapper { position: absolute; bottom: 0; left: 0; z-index: 5; -webkit-transform: translateY(22px); -ms-transform: translateY(22px); transform: translateY(22px); display: inline-block; padding-right: 10px; background: #fff; }
@@ -4457,7 +4466,6 @@ body #cxpmClientAccountWidget .widget-text span a { display: block; font-size: 1
 .brand-details .mod-catal .catal-prd-main-desc.expanded .catal-prd-main-desc-content:after { opacity: 0; visibility: hidden; }
 .brand-details .mod-catal .catal-prd-main-desc.expanded .desc-read-more:after { top: 13px; -webkit-transform: rotate(225deg); -ms-transform: rotate(225deg); transform: rotate(225deg); }
 
-/*  Button  */
 .brand-details .mod-catal .catal-pr-item-buttons { float: none; margin-top: 0; }
 .brand-details .mod-catal .catal-prd-main .catal-pr-item-buttons { -webkit-box-ordinal-group: 4; -ms-flex-order: 3; order: 3; margin-top: 21px; }
 .brand-details .mod-catal .catal-pr-item-buttons .btn-primary { position: relative; min-width: 120px; height: auto; padding: 13px 54px 16px 28px; border-radius: 25px; background: #f8e858; margin: 0; font-size: 18px; line-height: 1.2; font-weight: normal; letter-spacing: .05em; color: #2a2a2a; -webkit-transition: opacity .4s; -o-transition: opacity .4s; transition: opacity .4s; }
@@ -4469,7 +4477,6 @@ body #cxpmClientAccountWidget .widget-text span a { display: block; font-size: 1
 .brand-details .mod-catal .catal-pr-item-buttons .btn-primary:hover .selection-full .icon-catal:after { -webkit-transform: rotate(0); -ms-transform: rotate(0); transform: rotate(0); }
 
 
-/*  Stand  */
 .brand-details .catal-ex-item-stand-title { margin-right: 0; margin-bottom: 14px; font-size: 11px; line-height: 1.2; color: #373737; font-weight: normal; letter-spacing: .2em; text-transform: uppercase; }
 .brand-details .mod-catal .catal-ex-item-stand-item { margin-right: 16px; }
 .brand-details .mod-catal .catal-ex-item-stand-item:after { display: none; }
@@ -4477,7 +4484,6 @@ body #cxpmClientAccountWidget .widget-text span a { display: block; font-size: 1
 .brand-details .mod-catal .catal-ex-item-stand-link { display: inline-block; text-decoration: none; height: 23px; border: 1px solid #2a2a2a !important; border-radius: 12px; padding: 0 13px !important; font-size: 12px; line-height: 21px; font-weight: normal; letter-spacing: .075em; color: #2a2a2a; -webkit-transition: opacity .4s; -o-transition: opacity .4s; transition: opacity .4s; }
 .brand-details .mod-catal .catal-ex-item-stand-link:hover { color: #2a2a2a; opacity: .7; }
 
-/*  Other  */
 .brand-details .mod-catal.catal-other-prd { margin: 39px 0 0; }
 .brand-details .mod-catal.catal-other-prd h2 { padding-top: 0; padding-bottom: 12px; border-bottom: 1px solid #ededed; margin-bottom: 44px; font-size: 17px; line-height: 1.47; font-weight: bold; letter-spacing: .05em; }
 
@@ -4563,6 +4569,7 @@ body #cxpmClientAccountWidget .widget-text span a { display: block; font-size: 1
 .front .mod-catal .catal-ex-item-brand { width: 100%; padding: 0 10px 11px; margin: -10px -10px 9px; font-size: 13px; line-height: 1.2; font-weight: normal; letter-spacing: .05em; color: #2a2a2a; }
 .front .mod-catal .catal-ex-item-brand:before { display: none; }
 .front .mod-catal .catal-ex-item-brand a { text-decoration: none; font-size: 13px; color: #2a2a2a; }
+
 
 .front .mod-catal .catal-ex-item-buttons { margin-left: auto; margin-top: auto; margin-right: -2px; white-space: normal; }
 .front .mod-catal .catal-ex-item-buttons .btn-primary { display: block; position: relative; width: 100%; max-width: 94px; padding-right: 33px; font-size: 11px; line-height: 1.1; font-weight: normal; color: #2a2a2a; letter-spacing: .05em; text-align: right; text-indent: 0; }
