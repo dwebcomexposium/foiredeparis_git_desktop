@@ -676,7 +676,7 @@
 		}
 
 		function customScrollBar() {
-			if ($('.mod-catal .esf-es-panel-content').length) {
+			if ($('.mod-catal .esf-as-panel-content').length) {
 				$('.mod-catal .esf-as-panel-content').mCustomScrollbar();
 			}
 		}
