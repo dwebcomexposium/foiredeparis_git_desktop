@@ -549,7 +549,13 @@
 		}
 
 		function descReadMore() {
-			$('.exhibitor-details .mod-catal .catal-ed-main-desc, .product-details .mod-catal .catal-prd-main-desc, .brand-details .mod-catal .catal-prd-main-desc').append('<div class="desc-read-more-wrapper"><a href="#" class="desc-read-more">Lire la suite</a></div>');
+			$('.exhibitor-details .mod-catal .catal-ed-main-desc-content, .product-details .mod-catal .catal-prd-main-desc-content, .brand-details .mod-catal .catal-prd-main-desc-content').each(function(){
+				var letters = $(this).text().length;
+
+				if (letters > 400) {
+					$(this).parent().addClass('long').append('<div class="desc-read-more-wrapper"><a href="#" class="desc-read-more">Lire la suite</a></div>');
+				}
+			});
 
 			$('.desc-read-more').click(function(e){
 				e.preventDefault();
@@ -599,7 +605,7 @@
 			button.appendTo('.product-details .catal-prd-main-content');
 		}
 
-		// points dans la Pagination
+		// points dans Pagination
 		function paginationDots() {
 			var $pagination = $('.pagination');
 			var $pageItem = $pagination.find('.pagin-item');
