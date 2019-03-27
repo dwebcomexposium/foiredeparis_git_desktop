@@ -4499,6 +4499,8 @@ body #cxpmClientAccountWidget .widget-text span a { display: block; font-size: 1
 
 /*Div*/
 .catal-nav-ex-link, .catal-nav-ex-sep { display: none; }
+.produit .mod-catal .catal-ex-item-stand { position: absolute; bottom: 7px; }
+
 
 /* ------------------------------------------------------------ *\
 	Home
