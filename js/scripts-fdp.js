@@ -586,7 +586,7 @@
 			var button2 = $('.brand-details .catal-pr-item-buttons').detach();
 			button2.appendTo('.brand-details .catal-prd-main');
 
-			$('.produit .mod-catal .catal-ex-item-buttons, .front .mod-catal .catal-ex-item-buttons').each(function(){
+			$('.front .mod-catal .catal-ex-item-buttons').each(function(){
 				var $this = $(this);
 				var $holder = $this.closest('.catal-ex-item-content').find('.catal-ex-item-desc');
 				var button2 = $this.detach();
@@ -605,7 +605,7 @@
 			button.appendTo('.product-details .catal-prd-main-content');
 		}
 
-		// points dans Pagination
+		// insert point dans Pagination
 		function paginationDots() {
 			var $pagination = $('.pagination');
 			var $pageItem = $pagination.find('.pagin-item');
@@ -613,18 +613,15 @@
 			var $pageNext = $pagination.find('.pagin-next');
 
 			if ($pagePrev.length && $pageNext.length) {
-			// both arrows exist
 				if ($pageItem.length > 7) {  // items > 7
 					insertDots(2, true, true); // insert dots before last 2 items
 				}
 			} else if ($pagePrev.length && !$pageNext.length) {
-			// only prev arrow exist
 				if ($pageItem.length > 6) {  // items > 6
 					insertDots(1, true, false);  // insert dots before last item
 				}
 
 			} else if (!$pagePrev.length && $pageNext.length) {
-			// only next arrow exist
 				if ($pageItem.length > 6) {  // items > 6
 					insertDots(2, false, true);  // insert dots before last 2 item
 				}
