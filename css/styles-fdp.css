@@ -4496,6 +4496,10 @@ body #cxpmClientAccountWidget .widget-text span a { display: block; font-size: 1
 /*  Image Block  */
 .brand-details .image-block .image__content { margin-top: 162px; }
 
+
+/*Div*/
+.catal-nav-ex-link, .catal-nav-ex-sep { display: none; }
+
 /* ------------------------------------------------------------ *\
 	Home
 \* ------------------------------------------------------------ */
