@@ -3477,7 +3477,7 @@ li.event-type-li { display: inline-block; }
  
 
 /* ------------------------------------------------------------ *\
-	NEW STYLES
+	Catalogue facelift
 \* ------------------------------------------------------------ */
 
 #cxpmClientAccountWidget { margin-top: 0 !important; }
@@ -3505,7 +3505,6 @@ body #cxpmClientAccountWidget .widget-text span a { display: block; font-size: 1
 .quicklinks-navigation .ql-item-link:hover, .quicklinks-navigation .ql-item-link.is-active { color: #373737; opacity: .5; }
 
 
-/*  Social Sharing  */
 #zone1 .social-sharing { z-index: 5; top: 77px; right: auto; left: calc(100vw - 230px); min-width: 200px; padding-right: 0; }
 #zone1 .link-toggle i { top: 0; margin-left: 10px; }
 
@@ -3568,23 +3567,19 @@ body #cxpmClientAccountWidget .widget-text span a { display: block; font-size: 1
 
 .exposant .esf-as-heading { display: none; }
 
-/*  Small search  */
 .exposant .mod-catal.catal-nav-ex .btn-primary { display: inline-block; padding: 5px 19px 6px 22px; border-radius: 12px; background: #ededed; font-size: 12px; color: #2a2a2a; font-weight: normal; letter-spacing: .05em; -webkit-transition: opacity .4s; -o-transition: opacity .4s; transition: opacity .4s; }
 .exposant .mod-catal.catal-nav-ex .btn-primary .icon-catal { margin-right: -5px; }
 .exposant .mod-catal.catal-nav-ex .btn-primary:hover { text-decoration: none; color: #2a2a2a; opacity: .8; }
 .exposant .mod-catal.catal-nav-ex .btn-primary:hover .icon-catal { color: #2a2a2a; }
 
-/*  Return button  */
 .exposant .mod-catal.catal-nav-ex .catal-nav-ex-more-link#return-to-result { display: inline-block !important; padding: 5px 15px; border-radius: 12px; background: #ededed; font-size: 12px; line-height: 1.25; font-weight: normal; letter-spacing: .05em; -webkit-transition: opacity .4s; -o-transition: opacity .4s; transition: opacity .4s; }
 .exposant .mod-catal.catal-nav-ex .catal-nav-ex-more-link#return-to-result:hover { color: #2a2a2a; opacity: .8; }
 .exposant .mod-catal.catal-nav-ex .catal-nav-ex-more-link#return-to-result .icon-catal-chevrons { -webkit-transform: translateY(1px); -ms-transform: translateY(1px); transform: translateY(1px); display: inline-block; margin-right: 10px; font-size: 0; width: 17px; height: 10px; background: url(images/arrow-return@2x.png) no-repeat center; background-size: 100%; }
 .exposant .mod-catal.catal-nav-ex .catal-nav-ex-more-link#return-to-result .icon-catal-chevrons:before { display: none; }
 
-/*  Content  */
 .exposant .catal-ex { width: calc(100% - 240px); padding-left: 50px; margin-top: 113px !important; margin-left: auto; }
 .exposant .catal-ex-item { padding: 47px 0 41px; margin: 0; }
 
-/*  Product  */
 .exposant .mod-catal .catal-ex-item-img,
 .exposant .mod-catal .catal-prd-item-img { min-height: auto; width: auto; margin-right: 26px; }
 
@@ -3675,7 +3670,7 @@ body #cxpmClientAccountWidget .widget-text span a { display: block; font-size: 1
 .mod-catal .esf-tag-filter-label,
 .mod-catal .esf-tag-filter-nb { opacity: .7; }
 
-/*  Actual Filter  */
+/*  Filtre courant  */
 .mod-catal .esf-as-list-filters { float: none; width: 100%; border-right: 0; margin-top: 0; }
 .mod-catal .esf-as-list-filters li { display: block; }
 .mod-catal .esf-as-list-filters a { position: relative; display: block; padding: 6px 25px 6px 0; height: auto; border-bottom: 1px solid #ededed; background: none; }
@@ -3781,7 +3776,6 @@ body #cxpmClientAccountWidget .widget-text span a { display: block; font-size: 1
 .exhibitor-details .mod-catal .catal-ed-group-title, 
 .exhibitor-details .mod-catal .catal-prd-group-title { margin-bottom: 27px; padding-bottom: 14px; border-bottom-style: solid; border-bottom-color: #ededed; }
 
-/*  Activity  */
 .exhibitor-details .mod-catal .catal-ed-activity { margin-top: 71px; }
 .exhibitor-details .mod-catal .catal-ed-activity .catal-ed-activity-title { display: none; }
 
@@ -3797,7 +3791,7 @@ body #cxpmClientAccountWidget .widget-text span a { display: block; font-size: 1
 .exhibitor-details .mod-catal .catal-ed-activity .catal-ed-activity-item { margin: 0; padding: 5px; }
 .exhibitor-details .mod-catal .catal-ed-activity .catal-ed-activity-link { padding: 0 15px; background: #ededed; font-size: 15px; line-height: 24px; border-radius: 15px; letter-spacing: .05em; font-weight: normal; color: #373737; }
 
-/*  Brand Content  */
+
 .exhibitor-details .mod-catal .catal-ed-main-title, 
 .exhibitor-details .mod-catal .catal-prd-main-title { padding: 0; font-size: 17px; color: #373737; font-weight: bold; letter-spacing: .05em; }
 
@@ -3817,17 +3811,17 @@ body #cxpmClientAccountWidget .widget-text span a { display: block; font-size: 1
 .exhibitor-details .mod-catal .catal-ed-main { position: relative; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; -ms-flex-wrap: wrap; flex-wrap: wrap; min-height: 330px; padding-left: 288px; }
 .exhibitor-details .mod-catal .catal-ed-main:after { content: ''; display: table; line-height: 0; clear: both; }
 
-/*  Image  */
+
 .exhibitor-details .mod-catal .catal-ed-main > img { position: absolute; top: 3px; left: 0; display: block; width: 240px; height: 180px; padding: 28px; border: 1px solid #ededed; text-align: center; }
 .exhibitor-details .mod-catal .catal-ed-main-desc { margin-bottom: 30px; }
 .exhibitor-details .mod-catal .catal-ed-main-desc.long { position: relative; margin-bottom: 50px; -webkit-transition: padding .4s; -o-transition: padding .4s; transition: padding .4s; }
 .exhibitor-details .mod-catal .catal-ed-main-desc.long:after { content: ''; position: absolute; bottom: 0; left: 0; width: 100%; max-width: 532px; height: 1px; background: url(images/bg-pattern.png) repeat-x 0 bottom; background-size: auto; opacity: .2; }
 
-/*  Content  */
+
 .exhibitor-details .mod-catal .long .catal-ed-main-desc-content { position: relative; max-height: 146px; overflow: hidden; -webkit-transition: max-height .6s; -o-transition: max-height .6s; transition: max-height .6s; }
 .exhibitor-details .mod-catal .long .catal-ed-main-desc-content:after { content: ''; position: absolute; right: 0; bottom: 0; left: 0; height: 100px; background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(80%, #fff)); background: -webkit-linear-gradient(top, transparent 0%, #fff 80%); background: -o-linear-gradient(top, transparent 0%, #fff 80%); background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, #fff 80%); pointer-events: none; -webkit-transition: opacity .4s, visibility .4s; -o-transition: opacity .4s, visibility .4s; transition: opacity .4s, visibility .4s; }
 
-/*  Description  */
+
 .exhibitor-details .mod-catal .catal-ed-main-desc .desc-read-more-wrapper { position: absolute; bottom: 0; left: 0; z-index: 5; -webkit-transform: translateY(50%); -ms-transform: translateY(50%); transform: translateY(50%); display: inline-block; padding-right: 10px; background: #fff; }
 .exhibitor-details .mod-catal .catal-ed-main-desc .desc-read-more { position: relative; display: inline-block; height: 31px; border: 1px solid #ededed; border-radius: 15px; padding: 0 29px 0 15px; background: #fff; font-size: 12px; line-height: 29px; font-weight: normal; letter-spacing: .075em; color: #2a2a2a; text-decoration: none; -webkit-transition: background .4s; -o-transition: background .4s; transition: background .4s; }
 .exhibitor-details .mod-catal .catal-ed-main-desc .desc-read-more:after { content: ''; position: absolute; right: 12px; top: 9px; -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg); width: 8px; height: 8px; border-right: 1px solid #2a2a2a; border-bottom: 1px solid #2a2a2a; }
@@ -3934,7 +3928,7 @@ body #cxpmClientAccountWidget .widget-text span a { display: block; font-size: 1
 .exhibitor-details .mod-catal .catal-ed-products .catal-edp-stand-item + .catal-edp-stand-item:before { content: ''; position: absolute; top: 50%; left: -16px; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); border-radius: 100%; width: 6px; height: 6px; background: #ededed; }
 .exhibitor-details .mod-catal .catal-ed-products .catal-edp-stand-item .icon-catal { display: none; }
 
-/*  Brands  */
+/*  marques  */
 .exhibitor-details .mod-catal .catal-ed-brands { margin-top: 66px; margin-bottom: 0; }
 
 .exhibitor-details .mod-catal .catal-ed-brands .catal-ed-group-title, 
@@ -3968,7 +3962,7 @@ body #cxpmClientAccountWidget .widget-text span a { display: block; font-size: 1
 .exhibitor-details .mod-catal.catal-other-ex .catal-other-ex-actions .btn-primary:hover { text-decoration: none; opacity: .8; }
 
 /* ------------------------------------------------------------ *\
-	Product
+	Produits
 \* ------------------------------------------------------------ */
 
 .produit .site-wrapper { position: relative; }
@@ -4015,16 +4009,13 @@ body #cxpmClientAccountWidget .widget-text span a { display: block; font-size: 1
 
 .produit .esf-as-heading { display: none; }
 
-/*  Small search  */
 .produit .mod-catal.catal-nav-ex .btn-primary { display: inline-block; padding: 5px 19px 6px 22px; border-radius: 12px; background: #ededed; font-size: 12px; font-weight: normal; letter-spacing: .05em; -webkit-transition: opacity .4s; -o-transition: opacity .4s; transition: opacity .4s; }
 .produit .mod-catal.catal-nav-ex .btn-primary .icon-catal { margin-right: -5px; }
 .produit .mod-catal.catal-nav-ex .btn-primary:hover { text-decoration: none; color: #2a2a2a; opacity: .8; }
 .produit .mod-catal.catal-nav-ex .btn-primary:hover .icon-catal { color: #2a2a2a; }
 
-/*  Content  */
 .produit .catal-ex { display: -webkit-box !important; display: -ms-flexbox !important; display: flex !important; -ms-flex-wrap: wrap; flex-wrap: wrap; width: calc(100% - 240px); padding-left: 0; margin-top: 86px !important; margin-right: -25px; margin-left: auto; }
 
-/*  Product  */
 .produit .mod-catal .catal-ex-item { position: relative; -ms-flex-wrap: wrap; flex-wrap: wrap; width: 33.33%; padding: 26px 25px 0; margin: 0 0 23px; background: none; }
 .produit .mod-catal .catal-ex-item-img { width: 100%; max-height: 240px; border-width: 1px 1px 0 1px; border-style: solid; border-color: #ededed; margin-right: 0; }
 
@@ -4063,7 +4054,7 @@ body #cxpmClientAccountWidget .widget-text span a { display: block; font-size: 1
 .produit .mod-catal .catal-ex-item-tooltip .catal-ex-tooltip-type .icon-catal { -webkit-transform: translateY(-1px); -ms-transform: translateY(-1px); transform: translateY(-1px); display: inline-block; padding-right: 0; margin-right: 3px; color: #ea1e4e; }
 .produit .mod-catal .catal-ex-item-tooltip .catal-ex-item-tooltip__close { top: 9px; right: 12px; display: block; font-size: 0; width: 12px; height: 12px; background: url(images/close-lg@2x.png) center no-repeat; background-size: 100%; }
 
-.produit .mod-catal .catal-ex-item-desc { position: relative; display: block; width: 100%; padding: 7px 10px 8px !important; border-right: 0 !important; margin-top: auto !important; margin-right: 0 !important; }
+.produit .mod-catal .catal-ex-item-desc { position: relative; display: block; width: 100%; min-height: 66px; padding: 7px 10px 8px !important; border-right: 0 !important; margin-top: auto !important; margin-right: 0 !important; }
 .produit .mod-catal .catal-ex-item-desc:before { content: ''; position: absolute; bottom: 42px; right: 0; left: 0; height: 1px; background: #ededed; }
 .produit .mod-catal .catal-ex-item-desc:after { content: ''; display: table; line-height: 0; clear: both; }
 .produit .mod-catal .catal-ex-item-stand { float: left; display: block; width: 100%; max-width: 115px; color: #ea1e4e; }
@@ -4080,7 +4071,7 @@ body #cxpmClientAccountWidget .widget-text span a { display: block; font-size: 1
 .produit .mod-catal .catal-ex-item-brand:before { display: none; }
 .produit .mod-catal .catal-ex-item-brand a { text-decoration: none; }
 
-.produit .mod-catal .catal-ex-item-buttons { float: right; margin-right: -2px; }
+.produit .mod-catal .catal-ex-item-buttons { position: absolute; bottom: 10px; right: 36px; z-index: 5; }
 .produit .mod-catal .catal-ex-item-buttons .btn-primary { display: block; position: relative; max-width: 94px; padding-right: 33px; font-size: 11px; line-height: 1.1; font-weight: normal; color: #2a2a2a; letter-spacing: .05em; text-align: right; }
 .produit .mod-catal .catal-ex-item-buttons .btn-primary .icon-catal { position: absolute; top: 50%; right: 0; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; margin-right: 0; width: 24px; height: 24px; background: #f8e858; border-radius: 100%; }
 .produit .mod-catal .catal-ex-item-buttons .btn-primary .icon-catal:before { display: none; }
@@ -4260,7 +4251,7 @@ body #cxpmClientAccountWidget .widget-text span a { display: block; font-size: 1
 .product-details .mod-catal .catal-prd-brand .catal-prd-brand-view span:hover { text-decoration: none; }
 .product-details .mod-catal .catal-prd-brand .catal-prd-brand-view-all { display: none; }
 
-/*  Other  */
+/*  Autres  */
 .product-details .mod-catal.catal-other-prd { margin: 39px 0 0; }
 .product-details .mod-catal.catal-other-prd h2 { padding-top: 0; padding-bottom: 12px; border-bottom: 1px solid #ededed; margin-bottom: 44px; font-size: 17px; line-height: 1.47; font-weight: bold; letter-spacing: .05em; }
 
@@ -4277,11 +4268,10 @@ body #cxpmClientAccountWidget .widget-text span a { display: block; font-size: 1
 .product-details .mod-catal.catal-other-prd .catal-other-prd-actions .btn-primary:before { content: ''; display: inline-block; vertical-align: middle; margin-right: 9px; width: 17px; height: 10px; background: url(images/arrow-right-white@2x.png) center no-repeat; background-size: 100%; }
 .product-details .mod-catal.catal-other-prd .catal-other-prd-actions .btn-primary:hover { text-decoration: none; opacity: .8; }
 
-/*  Image Block  */
 .product-details .image-block .image__content { margin-top: 99px; }
 
 /* ------------------------------------------------------------ *\
-	Marque List
+	Marques List
 \* ------------------------------------------------------------ */
 
 .marque .site-wrapper { position: relative; }
@@ -4466,6 +4456,7 @@ body #cxpmClientAccountWidget .widget-text span a { display: block; font-size: 1
 .brand-details .mod-catal .catal-prd-main-desc.expanded .catal-prd-main-desc-content:after { opacity: 0; visibility: hidden; }
 .brand-details .mod-catal .catal-prd-main-desc.expanded .desc-read-more:after { top: 13px; -webkit-transform: rotate(225deg); -ms-transform: rotate(225deg); transform: rotate(225deg); }
 
+/*  Button  */
 .brand-details .mod-catal .catal-pr-item-buttons { float: none; margin-top: 0; }
 .brand-details .mod-catal .catal-prd-main .catal-pr-item-buttons { -webkit-box-ordinal-group: 4; -ms-flex-order: 3; order: 3; margin-top: 21px; }
 .brand-details .mod-catal .catal-pr-item-buttons .btn-primary { position: relative; min-width: 120px; height: auto; padding: 13px 54px 16px 28px; border-radius: 25px; background: #f8e858; margin: 0; font-size: 18px; line-height: 1.2; font-weight: normal; letter-spacing: .05em; color: #2a2a2a; -webkit-transition: opacity .4s; -o-transition: opacity .4s; transition: opacity .4s; }
@@ -4477,6 +4468,7 @@ body #cxpmClientAccountWidget .widget-text span a { display: block; font-size: 1
 .brand-details .mod-catal .catal-pr-item-buttons .btn-primary:hover .selection-full .icon-catal:after { -webkit-transform: rotate(0); -ms-transform: rotate(0); transform: rotate(0); }
 
 
+/*  Stand  */
 .brand-details .catal-ex-item-stand-title { margin-right: 0; margin-bottom: 14px; font-size: 11px; line-height: 1.2; color: #373737; font-weight: normal; letter-spacing: .2em; text-transform: uppercase; }
 .brand-details .mod-catal .catal-ex-item-stand-item { margin-right: 16px; }
 .brand-details .mod-catal .catal-ex-item-stand-item:after { display: none; }
@@ -4484,6 +4476,7 @@ body #cxpmClientAccountWidget .widget-text span a { display: block; font-size: 1
 .brand-details .mod-catal .catal-ex-item-stand-link { display: inline-block; text-decoration: none; height: 23px; border: 1px solid #2a2a2a !important; border-radius: 12px; padding: 0 13px !important; font-size: 12px; line-height: 21px; font-weight: normal; letter-spacing: .075em; color: #2a2a2a; -webkit-transition: opacity .4s; -o-transition: opacity .4s; transition: opacity .4s; }
 .brand-details .mod-catal .catal-ex-item-stand-link:hover { color: #2a2a2a; opacity: .7; }
 
+/*  Other  */
 .brand-details .mod-catal.catal-other-prd { margin: 39px 0 0; }
 .brand-details .mod-catal.catal-other-prd h2 { padding-top: 0; padding-bottom: 12px; border-bottom: 1px solid #ededed; margin-bottom: 44px; font-size: 17px; line-height: 1.47; font-weight: bold; letter-spacing: .05em; }
 
@@ -4510,7 +4503,7 @@ body #cxpmClientAccountWidget .widget-text span a { display: block; font-size: 1
 .front .liste-produit .mod-catal { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; width: 100%; max-width: 1164px; padding-left: 0; }
 .front .mod-catal .catal-ex-item { position: relative; display: -webkit-box !important; display: -ms-flexbox !important; display: flex !important; -ms-flex-wrap: wrap; flex-wrap: wrap; width: 25%; padding: 26px 25px 0; margin: 0 0 50px; background: none; text-align: left; overflow: visible; }
 .front .mod-catal .catal-ex-item:hover img { -webkit-transform: none; -ms-transform: none; transform: none; }
-.front .mod-catal .catal-ex-item-img { width: 100%; max-height: 240px; border-width: 1px 1px 0 1px; border-style: solid; border-color: #ededed; margin-right: 0; overflow: hidden; }
+.front .mod-catal .catal-ex-item-img { width: 100%; min-height: 239px; border-width: 1px 1px 0 1px; border-style: solid; border-color: #ededed; margin-right: 0; overflow: hidden; }
 .front .mod-catal .catal-ex-item-img img { width: 100%; }
 
 .front .mod-catal .catal-ex-item-content { position: static; height: calc(100% - 240px); display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; padding: 0; border: 1px solid #ededed; background: none; }
@@ -4554,7 +4547,7 @@ body #cxpmClientAccountWidget .widget-text span a { display: block; font-size: 1
 .front .mod-catal .catal-ex-item-tooltip .catal-ex-tooltip-type .icon-catal { -webkit-transform: translateY(-1px); -ms-transform: translateY(-1px); transform: translateY(-1px); display: inline-block; padding-right: 0; margin-right: 3px; color: #ea1e4e; }
 .front .mod-catal .catal-ex-item-tooltip .catal-ex-item-tooltip__close { top: 9px; right: 12px; left: auto; bottom: 0; display: block; font-size: 0; width: 12px; height: 12px; background: url(images/close-lg@2x.png) center no-repeat; background-size: 100%; }
 
-.front .mod-catal .catal-ex-item-desc { display: -webkit-box !important;display: -ms-flexbox !important;display: flex !important; -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; -ms-flex-wrap: wrap; flex-wrap: wrap; position: relative; display: block; width: 100%; padding: 10px 10px 8px !important; border-right: 0 !important; margin-right: 0 !important; margin-top: auto; }
+.front .mod-catal .catal-ex-item-desc { display: -webkit-box !important;display: -ms-flexbox !important; display: flex !important; -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; -ms-flex-wrap: wrap; flex-wrap: wrap; position: relative; display: block; width: 100%; padding: 10px 10px 8px !important; border-right: 0 !important; margin-right: 0 !important; margin-top: auto; }
 .front .mod-catal .catal-ex-item-desc:before { content: ''; position: absolute; bottom: 40px; right: 0; left: 0; height: 1px; background: #ededed; }
 .front .mod-catal .catal-ex-item-desc:after { content: ''; display: table; line-height: 0; clear: both; }
 .front .mod-catal .catal-ex-item-stand { float: left; display: block; width: 100%; max-width: 115px; color: #ea1e4e; }
@@ -4570,12 +4563,11 @@ body #cxpmClientAccountWidget .widget-text span a { display: block; font-size: 1
 .front .mod-catal .catal-ex-item-brand:before { display: none; }
 .front .mod-catal .catal-ex-item-brand a { text-decoration: none; font-size: 13px; color: #2a2a2a; }
 
-
 .front .mod-catal .catal-ex-item-buttons { margin-left: auto; margin-top: auto; margin-right: -2px; white-space: normal; }
 .front .mod-catal .catal-ex-item-buttons .btn-primary { display: block; position: relative; width: 100%; max-width: 94px; padding-right: 33px; font-size: 11px; line-height: 1.1; font-weight: normal; color: #2a2a2a; letter-spacing: .05em; text-align: right; text-indent: 0; }
-.front .mod-catal .catal-ex-item-buttons .btn-primary .icon-catal { position: absolute; top: 50%; right: 0; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; margin-right: 0; width: 24px; height: 24px; background: #f8e858; border-radius: 100%; }
+.front .mod-catal .catal-ex-item-buttons .btn-primary .icon-catal { position: absolute; top: 50%; right: 0; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; margin-right: 0; width: 24px; height: 24px; background: #ea1e4e; border-radius: 100%; }
 .front .mod-catal .catal-ex-item-buttons .btn-primary .icon-catal:before { display: none; }
-.front .mod-catal .catal-ex-item-buttons .btn-primary .icon-catal:after { backface-visibility: hidden; content: ''; position: absolute; top: 8px; left: 8px; width: 8px; height: 8px; background-image: url(images/plus-alt@2x.png); background-position: center; background-repeat: no-repeat; background-size: 8px 8px; -webkit-transition: -webkit-transform .4s;transition: -webkit-transform .4s;-o-transition: transform .4s;transition: transform .4s;transition: transform .4s, -webkit-transform .4s; }
+.front .mod-catal .catal-ex-item-buttons .btn-primary .icon-catal:after { backface-visibility: hidden; content: ''; position: absolute; top: 8px; left: 8px; width: 8px; height: 8px; background-image: url(images/plus-alt-white@2x.png); background-position: center; background-repeat: no-repeat; background-size: 8px 8px; -webkit-transition: -webkit-transform .4s;transition: -webkit-transform .4s;-o-transition: transform .4s;transition: transform .4s;transition: transform .4s, -webkit-transform .4s; }
 .front .mod-catal .catal-ex-item-buttons.is-selected .btn-primary .icon-catal:after { content: ''; background-image: url(images/minus-alt-white@2x.png); }
 .front .mod-catal .catal-ex-item-buttons .btn-primary:hover .icon-catal:after { -webkit-transform: rotate(360deg); -ms-transform: rotate(360deg); transform: rotate(360deg); }
 .front .mod-catal .catal-ex-item-buttons.is-selected .btn-primary:hover .icon-catal:after { -webkit-transform: rotate(0); -ms-transform: rotate(0); transform: rotate(0); }
