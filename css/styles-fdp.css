@@ -3685,15 +3685,30 @@ body #cxpmClientAccountWidget .widget-text span a { display: block; font-size: 1
 .mod-catal .esf-as-tree > ul, 
 .mod-catal .esf-as-tree > div { float: none; }
 
-.mod-catal .esf-as-panel-content { height: auto; max-height: 307px; overflow-y: hidden; }
+.mod-catal .esf-as-panel-content { height: auto; }
 .mod-catal .esf-as-count { display: none; }
-.mod-catal .esf-as-filter-panel { float: none; width: 100%; margin: 0 0 10px; border: 0; padding-top: 12px; }
+.mod-catal .esf-as-filter-panel { float: none; width: 257px; margin: 0 0 10px; border: 0; padding-top: 12px; }
 .mod-catal .esf-tree li { display: block; width: 100% !important; float: none !important; padding: 6px 0 5px; }
 .mod-catal .esf-tree li + li { border-top: 0; }
 .mod-catal .esf-tree li:hover { background: none; }
 .mod-catal .esf-tree .esf-has-sub-items > .esf-choice-container .esf-next-lvl { right: 5px; left: auto; width: 20px; }
 .mod-catal .esf-tree .esf-has-sub-items > .esf-choice-container .esf-next-lvl:hover:after { background: #2a2a2a; }
 .mod-catal .esf-tree .esf-has-sub-items > .esf-choice-container .esf-next-lvl::after { right: 0; margin: 0; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); padding: 0; color: #2a2a2a; }
+
+.mod-catal .esf-as-tree { max-height: 307px; overflow: hidden; }
+
+.mod-catal .esf-tree.mCustomScrollbar { max-height: 307px; overflow-y: hidden; }
+.mod-catal .esf-tree.mCS_destroyed { min-height: 307px; }
+
+.mod-catal .to-lvl-2 .esf-tree > li { display: none; }
+.mod-catal .to-lvl-2 .esf-tree .esf-has-sub-items.go-to-next-lvl { display: block; }
+
+.mod-catal .to-lvl-3 .tree-lvl-2 > li { display: none; }
+.mod-catal .to-lvl-3 .tree-lvl-2 .esf-has-sub-items.go-to-next-lvl { display: block; }
+
+
+.mod-catal .tree-lvl-2.mCustomScrollbar,
+.mod-catal .tree-lvl-3.mCustomScrollbar { max-height: 307px; }
 
 /*  Second Level  */
 .mod-catal .tree-lvl-2 .esf-sublvl-heading { padding: 10px 0; }
@@ -3833,7 +3848,7 @@ body #cxpmClientAccountWidget .widget-text span a { display: block; font-size: 1
 
 /*  Info  */
 .exhibitor-details .mod-catal .catal-ed-main-infos { position: absolute; top: 212px; left: 0; max-width: 240px; }
-.exhibitor-details .mod-catal .catal-ed-main .catal-ed-main-address { font-size: 15px; line-height: 1.8; font-weight: normal; letter-spacing: .05em; color: #373737; }
+.exhibitor-details .mod-catal .catal-ed-main .catal-ed-main-address { font-size: 13px; line-height: 1.4; font-weight: normal; letter-spacing: .05em; color: #373737; }
 
 .exhibitor-details .mod-catal .catal-ed-url { margin-top: 13px; }
 .exhibitor-details .mod-catal .catal-ed-url .catal-ed-url-link { display: inline-block; max-width: 240px; border: 1px solid #ededed; border-radius: 15px; padding: 1px 15px 3px; font-size: 15px; line-height: 1.2; font-weight: normal; letter-spacing: .05em; color: #373737; text-decoration: none; }
