@@ -222,7 +222,7 @@ body { min-width: 1100px; margin: 0; font-family: 'BrandonGrotesque', sans-serif
 .counter a { color: inherit; text-decoration: none; }
 .counter span { position: absolute; width: 38px; height: 38px; top: -10px; left: 0; border-radius: 50%; font-size: 11px; line-height: 38px; letter-spacing: 0.05em; color: #ea1e4e; text-align: center; background: rgba(234, 30, 78, .1); }
 
-.counter .orange { color: #72a143; background: rgba(114, 161, 69, 0.1); }
+.counter .orange { color: #ffb300; background: rgba(255, 179, 0, 0.1); }
 
 .bar ul.counters li:first-child { font-weight:700; }
 body.press .bar ul.counters li:first-child, body.pro .bar ul.counters li:first-child, body.lemag .bar ul.counters li:first-child { font-weight: 400; }
@@ -325,7 +325,7 @@ a:hover .ico-newspaper { background: url(images/ico-newspaper_hover.png) no-repe
 .ico-twitter { display: inline-block; width: 26px; height: 19px; vertical-align: middle; background: url(images/ico-twitter.png) no-repeat 0 0; }
 .ico-facebook { display: inline-block; width: 11px; height: 23px; vertical-align: middle; background: url(images/ico-facebook.png) no-repeat 0 0; }
 .ico-facecall { display: inline-block; width: 23px; height: 41px; vertical-align: middle; background: url(images/ico-facecall.png) no-repeat 0 0; }
-.rub-fda .ico-facecall { display: inline-block; width: 23px; height: 41px; vertical-align: middle; background: url(images/ico-facecall-fda.png) no-repeat 0 0; }
+.rub-fda .ico-facecall { display: inline-block; width: 23px; height: 41px; vertical-align: middle; background: url(images/ico-facecall-yellow.png) no-repeat 0 0; }
 .ico-youtube { display: inline-block; width: 19px; height: 26px; vertical-align: middle; background: url(images/ico-youtube.png) no-repeat 0 0; }
 .ico-instagram { display: inline-block; width: 22px; height: 22px; vertical-align: middle; background: url(images/ico-instagram.png) no-repeat 0 0; }
 
@@ -623,8 +623,8 @@ a:hover .ico-newspaper { background: url(images/ico-newspaper_hover.png) no-repe
 	        transition: .5s; 
 }
 .js header .global-search-form .gsf-submit-btn:hover { opacity: 1; cursor: pointer; border: 2px solid #ea1e4e; }
-.js header .global-search-form .gsf-label { display: block; position: absolute!important; width: 23px!important; height: 23px!important; top: 12px; left: 17px; background: url(images/ico-searchred.png) no-repeat 0 0; font-size: 0; line-height: 0; text-indent: -4004px; clip: unset!important; opacity: .7;
-}
+
+.js header .global-search-form .gsf-label { display: block; position: absolute!important; width: 23px!important; height: 23px!important; top: 12px; left: 17px; background: url(images/ico-searchred.png) no-repeat 0 0; font-size: 0; line-height: 0; text-indent: -4004px; clip: unset!important; opacity: .7; }
 
 
 .js header .global-search-form .gsf-label:hover { cursor: initial; }
@@ -637,7 +637,8 @@ header .global-search-form :placeholder-shown { color: #373737!important; }
 
 header .global-search-form .gsf-trigger { display: none; }
 
-
+.rub-fda header .global-search-form .gsf-submit-btn { color: #373737;  border: 1px solid #373737;}
+.rub-fda header .global-search-form .gsf-submit-btn:hover { border: 2px solid #373737; }
 
 
 
@@ -1024,6 +1025,8 @@ body.loaded .main-navigation { display: block; }
 	     -o-transform: translateX(-50%); 
 	        transform: translateX(-50%); 
 }
+
+.rub-fda .partner.partner-home .link-view-all {  background: #ffb300; }
 .partner.partner-home .link-view-all:before { content: ''; position: relative; display: inline-block; width: 22px; height: 12px; top: -2px; margin-right: 7px; vertical-align: middle; background: url(images/ico-arrow-right@2x.png) no-repeat 0 0; 
 	-webkit-background-size: 100% 100%; 
 	        background-size: 100% 100%; 
@@ -2853,19 +2856,19 @@ i.icon-catal.icon-catal-demo:before { display: inline-block; width: 16px; height
 .rub-fda .bar ul.counters li:first-child { font-weight:400; }
 .rub-fda .bar ul.counters li:nth-child(2) { font-weight:700; }
 
-.rub-fda .header { background: #72a143; }
-.rub-fda .link span { padding-top: 18px; font-size: 50px; color: #72a143; text-align: }
-.rub-fda .header .header-inner { position: relative; padding-left: 250px; }
+.rub-fda .header { background: #ffb300; }
+.rub-fda .link span { padding-top: 18px; font-size: 50px; color: #ffb300; text-align: }
+.rub-fda .header .header-inner { position: relative; padding-left: 235px; }
 .rub-fda .col-size1 { width: 36.4%; }
 .rub-fda .col-size2 { width: 40.41%; }
 .rub-fda .col-size3 { width: 23.19%; }
-.rub-fda .logo { display: inline-block; width: 230px; height: 83px; background: url(images/logo-hors-serie-maison.png) no-repeat 0 0; margin-top: 15px;
+.rub-fda .logo { display: inline-block; width: 213px; height: 110px; background: url(images/logo-fda.png) no-repeat 0 0; margin-top: 2px;
 }
-.rub-fda .logo:hover { background: url(images/logo-hors-serie-maison-hover.png) no-repeat 0 0; }
+.rub-fda .logo:hover { background: url(images/logo-fda-hover.png) no-repeat 0 0; }
 
 @media only screen and ( -webkit-min-device-pixel-ratio: 2 ), only screen and ( min-device-pixel-ratio: 2 ), only screen and ( min-resolution: 192dpi ) {
 	
-	.rub-fda .logo { background: url(images/llogo-hors-serie-maison@2x.png) no-repeat 0 0; 
+	.rub-fda .logo { background: url(images/logo-fda-@2x.png) no-repeat 0 0; 
 		-webkit-background-size: 100% 100%; 
 		        background-size: 100% 100%; 
 	}
@@ -2881,25 +2884,25 @@ i.icon-catal.icon-catal-demo:before { display: inline-block; width: 16px; height
 
 .rub-fda .edito { position: relative; padding-bottom: 53px; font-size: 16px; line-height: 1.38; font-weight: 300; color: #373737; text-align: center; z-index: 2; background: url(images/bg-pattern.png) repeat-x 0 120px; padding-top: 120px; }
 
-.rub-fda .edito .block-title { position: relative; width: 215px; height: 193px; top: -81px; margin: 0 auto -29px; background: url(images/logo-hors-serie-maison-bottom.png) no-repeat 0 0; font-size: 0; line-height: 0; text-indent: -4004px; }
+.rub-fda .edito .block-title { position: relative; width: 190px; height: 240px; top: -81px; margin: 0 auto -29px; background: url(images/logo-fda-bottom.png) 0 0 no-repeat #ffffff; font-size: 0; line-height: 0; text-indent: -4004px; }
 .rub-fda .edito .block-title:before, .rub-fda .edito .block-title:after { display: none; }
 
 
-.rub-fda .lemag .gla-btn-read-more, .rub-fda .btn, .rub-fda .front .partner .link-view-all,.rub-fda .article-wrapper ul > li:before, .rub-fda .article-wrapper .focus1 a, .rub-fda .focus2 a:hover, .rub-fda .article-wrapper .article-title .at-theme, .rub-fda .article-wrapper h2 span:after, .rub-fda .article-wrapper h2 span:before, .rub-fda .btn-secondary:hover, .rub-fda .article_list .cxp-pagination .gla-item-tag, .rub-fda .page-rubric .edito .block-title:before, .rub-fda .page-rubric .edito .block-title:after, .rub-fda .survey .layout-2-col .submit input, .rub-fda .article-wrapper h4 { background: #72a143; }
+.rub-fda .lemag .gla-btn-read-more, .rub-fda .btn, .rub-fda .front .partner .link-view-all,.rub-fda .article-wrapper ul > li:before, .rub-fda .article-wrapper .focus1 a, .rub-fda .focus2 a:hover, .rub-fda .article-wrapper .article-title .at-theme, .rub-fda .article-wrapper h2 span:after, .rub-fda .article-wrapper h2 span:before, .rub-fda .btn-secondary:hover, .rub-fda .article_list .cxp-pagination .gla-item-tag, .rub-fda .page-rubric .edito .block-title:before, .rub-fda .page-rubric .edito .block-title:after, .rub-fda .survey .layout-2-col .submit input, .rub-fda .article-wrapper h4 { background: #ffb300; }
 
-.rub-fda .twitter, .rub-fda .socials, .rub-fda .article-wrapper h2, .rub-fda #zone2 .block-page .intro h2, .rub-fda .focus2 a, .rub-fda .article-wrapper .lien4, .rub-fda .block-page.list-articles .intro a, .rub-fda .page-rubric .edito a, .rub-fda .page-rubric .edito .block-title, .rub-fda #zone2 .faq p a, .rub-fda #zone2 .faq li a, .rub-fda #zone2 .faq i.icon.icon-plus, .rub-fda #zone2 .faq i.icon.icon-minus, .rub-fda #zone2 .faq a:hover i.icon.icon-plus, .rub-fda #zone2 .faq a:hover i.icon.icon-minus, .rub-fda #zone2 .faq a:hover, .rub-fda .part #zone2 .partner h2, .rub-fda .survey .layout-2-col .intro a, .rub-fda .liste-produit .ql-item, .rub-fda .liste-produit .catal-ex-item .catal-ex-item-brand a { color: #72a143;  }
+.rub-fda .twitter, .rub-fda .socials, .rub-fda .article-wrapper h2, .rub-fda #zone2 .block-page .intro h2, .rub-fda .focus2 a, .rub-fda .article-wrapper .lien4, .rub-fda .block-page.list-articles .intro a, .rub-fda .page-rubric .edito a, .rub-fda .page-rubric .edito .block-title, .rub-fda #zone2 .faq p a, .rub-fda #zone2 .faq li a, .rub-fda #zone2 .faq i.icon.icon-plus, .rub-fda #zone2 .faq i.icon.icon-minus, .rub-fda #zone2 .faq a:hover i.icon.icon-plus, .rub-fda #zone2 .faq a:hover i.icon.icon-minus, .rub-fda #zone2 .faq a:hover, .rub-fda .part #zone2 .partner h2, .rub-fda .survey .layout-2-col .intro a, .rub-fda .liste-produit .ql-item, .rub-fda .liste-produit .catal-ex-item .catal-ex-item-brand a { color: #ffb300;  }
 
 .rub-fda .btn-secondary {  border: 1px solid #ea1e4e;  }
-.rub-fda .ico-twitter-big {background: url(images/ico-twitter-big-green.png) no-repeat 0 0; }
-.rub-fda .ico-twitter { background: url(images/ico-twitter-green.png) no-repeat 0 0; }
-.rub-fda .ico-facebook { background: url(images/ico-facebook-green.png) no-repeat 0 0; }
-.rub-fda .ico-youtube { background: url(images/ico-youtube-green.png) no-repeat 0 0; }
-.rub-fda .ico-instagram { background: url(images/ico-instagram-green.png) no-repeat 0 0; }
+.rub-fda .ico-twitter-big {background: url(images/ico-twitter-big-yellow.png) no-repeat 0 0; }
+.rub-fda .ico-twitter { background: url(images/ico-twitter-yellow.png) no-repeat 0 0; }
+.rub-fda .ico-facebook { background: url(images/ico-facebook-yellow.png) no-repeat 0 0; }
+.rub-fda .ico-youtube { background: url(images/ico-youtube-yellow.png) no-repeat 0 0; }
+.rub-fda .ico-instagram { background: url(images/ico-instagram-yellow.png) no-repeat 0 0; }
 
 
 /*factbox FDA*/
-.rub-fda .article-wrapper custom[name="factbox"], .rub-fda .article-wrapper custom[name="factbox"]:after, .rub-fda .article-wrapper custom[name="factbox"]:before { background: #72a143; }
-.rub-fda .article-wrapper custom[name="factbox"] h4 { color:#72a143 ;  }
+.rub-fda .article-wrapper custom[name="factbox"], .rub-fda .article-wrapper custom[name="factbox"]:after, .rub-fda .article-wrapper custom[name="factbox"]:before { background: #ffb300; }
+.rub-fda .article-wrapper custom[name="factbox"] h4 { color:#ffb300 ;  }
 
 
 
@@ -3355,9 +3358,9 @@ a.btn-primary.btn-medium {float: right; }
  	catalogue FDA
  \* ------------------------------------------------------------ */
  
- .rub-fda .shape:nth-child(1),.rub-fda .shape:nth-child(2),.rub-fda .shape:nth-child(3){background:#72a143}
- .rub-fda .is-premium .catal-ex-item-title a,.rub-fda .mod-catal .catal-ed-activity .catal-ed-activity-link,.rub-fda .mod-catal .catal-ed-activity .catal-ed-activity-link:active,.rub-fda .mod-catal .catal-ed-activity .catal-ed-activity-link:focus,.rub-fda .mod-catal .catal-ed-activity .catal-ed-activity-link:hover,.rub-fda .mod-catal .catal-ed-activity .catal-prd-activity-link,.rub-fda .mod-catal .catal-ed-activity .catal-prd-activity-link:active,.rub-fda .mod-catal .catal-ed-activity .catal-prd-activity-link:focus,.rub-fda .mod-catal .catal-ed-activity .catal-prd-activity-link:hover,.rub-fda .mod-catal .catal-prd-activity .catal-ed-activity-link,.rub-fda .mod-catal .catal-prd-activity .catal-ed-activity-link:active,.rub-fda .mod-catal .catal-prd-activity .catal-ed-activity-link:focus,.rub-fda .mod-catal .catal-prd-activity .catal-ed-activity-link:hover,.rub-fda .mod-catal .catal-prd-activity .catal-prd-activity-link,.rub-fda .mod-catal .catal-prd-activity .catal-prd-activity-link:active,.rub-fda .mod-catal .catal-prd-activity .catal-prd-activity-link:focus,.rub-fda .mod-catal .catal-prd-activity .catal-prd-activity-link:hover,.rub-fda .mod-catal .esf-search-line #esf-btn-search,.rub-fda .mod-catal .esf-search-line #esf-btn-search:hover,.rub-fda .mod-catal .esf-as-header:after,.rub-fda .mod-catal .esf-as-header:before,.rub-fda .mod-catal .esf-as-list-filters .current a,.rub-fda .mod-catal .esf-results-zone .esf-results-alpha-filter,.rub-fda .pagin-item.is-active a,.rub-fda .tt-suggestion a:focus, .rub-fda .tt-suggestion a:hover{background:#72a143}
- .rub-fda .mod-catal a,.rub-fda .mod-catal a:hover,.rub-fda .mod-catal .catal-ex-item-title,.rub-fda .mod-catal .catal-prd-item-title,.rub-fda .mod-catal .catal-ex-item-title a,.rub-fda .mod-catal .catal-prd-item-title a,.rub-fda .mod-catal .catal-ex-item-title a:focus,.rub-fda .mod-catal .catal-ex-item-title a:hover,.rub-fda .mod-catal .catal-prd-item-title a:focus,.rub-fda .mod-catal .catal-prd-item-title a:hover,.rub-fda .mod-catal .catal-ex-item-stand-link,.rub-fda .mod-catal .catal-ex-item-stand-link:hover,.rub-fda .mod-catal .catal-prd-item-stand-link,.rub-fda .mod-catal .catal-prd-item-stand-link:hover,.rub-fda .mod-catal .btn-primary,.rub-fda .mod-catal .btn-primary:active,.rub-fda .mod-catal .btn-primary:focus,.rub-fda .mod-catal .btn-primary:hover,.rub-fda .mod-catal .catal-ex-item-buttons-small .btn-primary:active,.rub-fda .mod-catal .catal-ex-item-buttons-small .btn-primary:focus,.rub-fda .mod-catal .catal-ex-item-buttons-small .btn-primary:hover,.rub-fda .mod-catal .catal-ex-item-buttons .btn-primary:active,.rub-fda .mod-catal .catal-ex-item-buttons .btn-primary:focus,.rub-fda .mod-catal .catal-ex-item-buttons .btn-primary:hover,.rub-fda .mod-catal .catal-ed-main-title,.rub-fda .mod-catal .catal-prd-main-title,.rub-fda .mod-catal .catal-ed-main .catal-ed-main-desc-title,.rub-fda .mod-catal .catal-ed-main .catal-prd-main-desc-title,.rub-fda .mod-catal .catal-prd-main .catal-ed-main-desc-title,.rub-fda .mod-catal .catal-prd-main .catal-prd-main-desc-title,.rub-fda .mod-catal .catal-ed-brands .catal-ed-brands-link:active,.rub-fda .mod-catal .catal-ed-brands .catal-ed-brands-link:focus,.rub-fda .mod-catal .catal-ed-brands .catal-ed-brands-link:hover,.rub-fda .mod-catal.catal-nav-ex .btn-primary:hover,.rub-fda .mod-catal.catal-nav-ex .catal-nav-ex-link:hover,.rub-fda .mod-catal.catal-nav-ex .catal-nav-ex-more-link:hover,.rub-fda .mod-catal.catal-nav-ex .btn-primary:hover .icon-catal,.rub-fda .mod-catal.catal-nav-ex .btn-primary:hover span,.rub-fda .mod-catal.catal-nav-ex .catal-nav-ex-link:hover .icon-catal,.rub-fda .mod-catal.catal-nav-ex .catal-nav-ex-link:hover span,.rub-fda .mod-catal.catal-nav-ex .catal-nav-ex-more-link:hover .icon-catal,.rub-fda .mod-catal.catal-nav-ex .catal-nav-ex-more-link:hover span,.rub-fda .mod-catal.catal-other-ex,.rub-fda .mod-catal.catal-pr-details .catal-prd-main-title,.rub-fda .mod-catal.catal-other-ex .catal-other-ex-link:focus .catal-other-ex-txt,.rub-fda .mod-catal.catal-other-ex .catal-other-ex-link:hover .catal-other-ex-txt,.rub-fda .mod-catal.catal-other-ex .catal-other-prd-link:focus .catal-other-ex-txt,.rub-fda .mod-catal.catal-other-ex .catal-other-prd-link:hover .catal-other-ex-txt,.rub-fda .mod-catal.catal-other-prd .catal-other-ex-link:focus .catal-other-ex-txt,.rub-fda .mod-catal.catal-other-prd .catal-other-ex-link:hover .catal-other-ex-txt,.rub-fda .mod-catal.catal-other-prd .catal-other-prd-link:focus .catal-other-ex-txt,.rub-fda .mod-catal.catal-other-prd .catal-other-prd-link:hover .catal-other-ex-txt,.rub-fda .mod-catal .h1-like,.rub-fda .mod-catal .h2-like,.rub-fda .mod-catal h1,.rub-fda .mod-catal .esf-intro-title,.rub-fda .mod-catal.exhibitor-search-form a:focus,.rub-fda .mod-catal.exhibitor-search-form a:hover,.rub-fda .mod-catal .esf-results-zone .esf-results-alpha-filter .current,.rub-fda .mod-catal .catal-results-title,.rub-fda .mod-catal.catal-ex-blocs .catal-ex-item-title a:hover,.rub-fda .mod-catal.catal-ex-blocs .catal-ex-item-cat,.rub-fda .mod-catal.catal-ex-blocs .catal-ex-item-des,.rub-fda .mod-catal .hist-footer .btn-invert,.rub-fda .mod-catal .hist-footer .btn-primary,.rub-fda .mod-catal .mysel-footer .btn-invert,.rub-fda .mod-catal .mysel-footer .btn-primary,.rub-fda .mod-catal .catal-ex-item-cat-iconitem .icon-catal,.rub-fda .mod-catal .catal-ex-item-stand-more-link,.rub-fda .mod-catal .catal-ex-item-cat-more-link,.rub-fda .mod-catal .catal-ex-item-stand-more-link:hover,.rub-fda .mod-catal .catal-ex-item-cat-more-link:hover,.rub-fda .mod-catal .catal-ex-item-exhibitor-item .icon-catal,.rub-fda .mod-catal .catal-ex-item-exhibitor-item a:hover,.rub-fda .mod-catal .catal-ex-item-cat-iconitem .icon-catal,.rub-fda .mod-catal .catal-prd-main-title,.rub-fda .mod-catal .catal-prd-infos .catal-prd-infos-type-list .catal-prd-infos-item .icon-catal,.rub-fda .mod-catal .catal-prd-infos .catal-prd-infos-cat-list .catal-prd-infos-link:focus,.rub-fda .mod-catal .catal-prd-infos .catal-prd-infos-cat-list .catal-prd-infos-link:active,.rub-fda .mod-catal .catal-prd-infos .catal-prd-infos-cat-list .catal-prd-infos-link:hover,.rub-fda .mod-catal .link-view-all:focus,.rub-fda .mod-catal .link-view-all:hover,.rub-fda .mod-catal .catal-prd-exhibitor .catal-prd-exhibitor-view span,.rub-fda .mod-catal .catal-prd-main .catal-prd-main-link-video,.rub-fda .mod-catal .link-view-all .icon,.rub-fda .mod-catal .link-view-all .icon-catal,.rub-fda .mod-catal .catal-ed-activity .catal-ed-activity-item-view-all .catal-ed-activity-link,.rub-fda .mod-catal .catal-ex-item-stand-item .icon-catal, .rub-fda .tt-highlight, .rub-fda .tt-dropdown-menu .typeahead-section-name {color:#72a143}
+ .rub-fda .shape:nth-child(1),.rub-fda .shape:nth-child(2),.rub-fda .shape:nth-child(3){background:#ffb300}
+ .rub-fda .is-premium .catal-ex-item-title a,.rub-fda .mod-catal .catal-ed-activity .catal-ed-activity-link,.rub-fda .mod-catal .catal-ed-activity .catal-ed-activity-link:active,.rub-fda .mod-catal .catal-ed-activity .catal-ed-activity-link:focus,.rub-fda .mod-catal .catal-ed-activity .catal-ed-activity-link:hover,.rub-fda .mod-catal .catal-ed-activity .catal-prd-activity-link,.rub-fda .mod-catal .catal-ed-activity .catal-prd-activity-link:active,.rub-fda .mod-catal .catal-ed-activity .catal-prd-activity-link:focus,.rub-fda .mod-catal .catal-ed-activity .catal-prd-activity-link:hover,.rub-fda .mod-catal .catal-prd-activity .catal-ed-activity-link,.rub-fda .mod-catal .catal-prd-activity .catal-ed-activity-link:active,.rub-fda .mod-catal .catal-prd-activity .catal-ed-activity-link:focus,.rub-fda .mod-catal .catal-prd-activity .catal-ed-activity-link:hover,.rub-fda .mod-catal .catal-prd-activity .catal-prd-activity-link,.rub-fda .mod-catal .catal-prd-activity .catal-prd-activity-link:active,.rub-fda .mod-catal .catal-prd-activity .catal-prd-activity-link:focus,.rub-fda .mod-catal .catal-prd-activity .catal-prd-activity-link:hover,.rub-fda .mod-catal .esf-search-line #esf-btn-search,.rub-fda .mod-catal .esf-search-line #esf-btn-search:hover,.rub-fda .mod-catal .esf-as-header:after,.rub-fda .mod-catal .esf-as-header:before,.rub-fda .mod-catal .esf-as-list-filters .current a,.rub-fda .mod-catal .esf-results-zone .esf-results-alpha-filter,.rub-fda .pagin-item.is-active a,.rub-fda .tt-suggestion a:focus, .rub-fda .tt-suggestion a:hover{background:#ffb300}
+ .rub-fda .mod-catal a,.rub-fda .mod-catal a:hover,.rub-fda .mod-catal .catal-ex-item-title,.rub-fda .mod-catal .catal-prd-item-title,.rub-fda .mod-catal .catal-ex-item-title a,.rub-fda .mod-catal .catal-prd-item-title a,.rub-fda .mod-catal .catal-ex-item-title a:focus,.rub-fda .mod-catal .catal-ex-item-title a:hover,.rub-fda .mod-catal .catal-prd-item-title a:focus,.rub-fda .mod-catal .catal-prd-item-title a:hover,.rub-fda .mod-catal .catal-ex-item-stand-link,.rub-fda .mod-catal .catal-ex-item-stand-link:hover,.rub-fda .mod-catal .catal-prd-item-stand-link,.rub-fda .mod-catal .catal-prd-item-stand-link:hover,.rub-fda .mod-catal .btn-primary,.rub-fda .mod-catal .btn-primary:active,.rub-fda .mod-catal .btn-primary:focus,.rub-fda .mod-catal .btn-primary:hover,.rub-fda .mod-catal .catal-ex-item-buttons-small .btn-primary:active,.rub-fda .mod-catal .catal-ex-item-buttons-small .btn-primary:focus,.rub-fda .mod-catal .catal-ex-item-buttons-small .btn-primary:hover,.rub-fda .mod-catal .catal-ex-item-buttons .btn-primary:active,.rub-fda .mod-catal .catal-ex-item-buttons .btn-primary:focus,.rub-fda .mod-catal .catal-ex-item-buttons .btn-primary:hover,.rub-fda .mod-catal .catal-ed-main-title,.rub-fda .mod-catal .catal-prd-main-title,.rub-fda .mod-catal .catal-ed-main .catal-ed-main-desc-title,.rub-fda .mod-catal .catal-ed-main .catal-prd-main-desc-title,.rub-fda .mod-catal .catal-prd-main .catal-ed-main-desc-title,.rub-fda .mod-catal .catal-prd-main .catal-prd-main-desc-title,.rub-fda .mod-catal .catal-ed-brands .catal-ed-brands-link:active,.rub-fda .mod-catal .catal-ed-brands .catal-ed-brands-link:focus,.rub-fda .mod-catal .catal-ed-brands .catal-ed-brands-link:hover,.rub-fda .mod-catal.catal-nav-ex .btn-primary:hover,.rub-fda .mod-catal.catal-nav-ex .catal-nav-ex-link:hover,.rub-fda .mod-catal.catal-nav-ex .catal-nav-ex-more-link:hover,.rub-fda .mod-catal.catal-nav-ex .btn-primary:hover .icon-catal,.rub-fda .mod-catal.catal-nav-ex .btn-primary:hover span,.rub-fda .mod-catal.catal-nav-ex .catal-nav-ex-link:hover .icon-catal,.rub-fda .mod-catal.catal-nav-ex .catal-nav-ex-link:hover span,.rub-fda .mod-catal.catal-nav-ex .catal-nav-ex-more-link:hover .icon-catal,.rub-fda .mod-catal.catal-nav-ex .catal-nav-ex-more-link:hover span,.rub-fda .mod-catal.catal-other-ex,.rub-fda .mod-catal.catal-pr-details .catal-prd-main-title,.rub-fda .mod-catal.catal-other-ex .catal-other-ex-link:focus .catal-other-ex-txt,.rub-fda .mod-catal.catal-other-ex .catal-other-ex-link:hover .catal-other-ex-txt,.rub-fda .mod-catal.catal-other-ex .catal-other-prd-link:focus .catal-other-ex-txt,.rub-fda .mod-catal.catal-other-ex .catal-other-prd-link:hover .catal-other-ex-txt,.rub-fda .mod-catal.catal-other-prd .catal-other-ex-link:focus .catal-other-ex-txt,.rub-fda .mod-catal.catal-other-prd .catal-other-ex-link:hover .catal-other-ex-txt,.rub-fda .mod-catal.catal-other-prd .catal-other-prd-link:focus .catal-other-ex-txt,.rub-fda .mod-catal.catal-other-prd .catal-other-prd-link:hover .catal-other-ex-txt,.rub-fda .mod-catal .h1-like,.rub-fda .mod-catal .h2-like,.rub-fda .mod-catal h1,.rub-fda .mod-catal .esf-intro-title,.rub-fda .mod-catal.exhibitor-search-form a:focus,.rub-fda .mod-catal.exhibitor-search-form a:hover,.rub-fda .mod-catal .esf-results-zone .esf-results-alpha-filter .current,.rub-fda .mod-catal .catal-results-title,.rub-fda .mod-catal.catal-ex-blocs .catal-ex-item-title a:hover,.rub-fda .mod-catal.catal-ex-blocs .catal-ex-item-cat,.rub-fda .mod-catal.catal-ex-blocs .catal-ex-item-des,.rub-fda .mod-catal .hist-footer .btn-invert,.rub-fda .mod-catal .hist-footer .btn-primary,.rub-fda .mod-catal .mysel-footer .btn-invert,.rub-fda .mod-catal .mysel-footer .btn-primary,.rub-fda .mod-catal .catal-ex-item-cat-iconitem .icon-catal,.rub-fda .mod-catal .catal-ex-item-stand-more-link,.rub-fda .mod-catal .catal-ex-item-cat-more-link,.rub-fda .mod-catal .catal-ex-item-stand-more-link:hover,.rub-fda .mod-catal .catal-ex-item-cat-more-link:hover,.rub-fda .mod-catal .catal-ex-item-exhibitor-item .icon-catal,.rub-fda .mod-catal .catal-ex-item-exhibitor-item a:hover,.rub-fda .mod-catal .catal-ex-item-cat-iconitem .icon-catal,.rub-fda .mod-catal .catal-prd-main-title,.rub-fda .mod-catal .catal-prd-infos .catal-prd-infos-type-list .catal-prd-infos-item .icon-catal,.rub-fda .mod-catal .catal-prd-infos .catal-prd-infos-cat-list .catal-prd-infos-link:focus,.rub-fda .mod-catal .catal-prd-infos .catal-prd-infos-cat-list .catal-prd-infos-link:active,.rub-fda .mod-catal .catal-prd-infos .catal-prd-infos-cat-list .catal-prd-infos-link:hover,.rub-fda .mod-catal .link-view-all:focus,.rub-fda .mod-catal .link-view-all:hover,.rub-fda .mod-catal .catal-prd-exhibitor .catal-prd-exhibitor-view span,.rub-fda .mod-catal .catal-prd-main .catal-prd-main-link-video,.rub-fda .mod-catal .link-view-all .icon,.rub-fda .mod-catal .link-view-all .icon-catal,.rub-fda .mod-catal .catal-ed-activity .catal-ed-activity-item-view-all .catal-ed-activity-link,.rub-fda .mod-catal .catal-ex-item-stand-item .icon-catal, .rub-fda .tt-highlight, .rub-fda .tt-dropdown-menu .typeahead-section-name {color:#ffb300}
  
  
  
