@@ -1420,6 +1420,7 @@ script {display: none!important; }
 	     -o-transform: translateX(-50%); 
 	        transform: translateX(-50%); 
 }
+
 .article_list .cxp-pagination .gla-item-title { font-size: 24px; line-height: 1.11; font-weight: 300; letter-spacing: 0.05em; padding-top: 22px; position: relative; }
 .article_list .cxp-pagination .gla-item-title:before { content: ''; position: absolute; height: 22px; top: 0; left: -8px; right: -8px; background: #fff; }
 .article_list .cxp-pagination .gla-item { 
@@ -2876,7 +2877,7 @@ i.icon-catal.icon-catal-demo:before { display: inline-block; width: 16px; height
 
 
 .rub-fda .tpsfort .gla-item-content, .rub-fda .tpsfort .gla-item:hover .gla-item-content, .rub-fda .tpsfort .gla-item > a:hover .gla-item-content, 
-.rub-fda .tpsfort .gla-item > a:focus .gla-item-content {  background: #e4f9d5;  }
+.rub-fda .tpsfort .gla-item > a:focus .gla-item-content  {  background: #e4f9d5;  }
 
 
 .rub-fda .main-navigation .mn-link { min-height: 35px;  }
@@ -2888,7 +2889,7 @@ i.icon-catal.icon-catal-demo:before { display: inline-block; width: 16px; height
 .rub-fda .edito .block-title:before, .rub-fda .edito .block-title:after { display: none; }
 
 
-.rub-fda .lemag .gla-btn-read-more, .rub-fda .btn, .rub-fda .front .partner .link-view-all,.rub-fda .article-wrapper ul > li:before, .rub-fda .article-wrapper .focus1 a, .rub-fda .focus2 a:hover, .rub-fda .article-wrapper .article-title .at-theme, .rub-fda .article-wrapper h2 span:after, .rub-fda .article-wrapper h2 span:before, .rub-fda .btn-secondary:hover, .rub-fda .article_list .cxp-pagination .gla-item-tag, .rub-fda .page-rubric .edito .block-title:before, .rub-fda .page-rubric .edito .block-title:after, .rub-fda .survey .layout-2-col .submit input, .rub-fda .article-wrapper h4 { background: #ffb300; }
+.rub-fda .lemag .gla-btn-read-more, .rub-fda .btn, .rub-fda .front .partner .link-view-all,.rub-fda .article-wrapper ul > li:before, .rub-fda .article-wrapper .focus1 a, .rub-fda .focus2 a:hover, .rub-fda .article-wrapper .article-title .at-theme, .rub-fda .article-wrapper h2 span:after, .rub-fda .article-wrapper h2 span:before, .rub-fda .btn-secondary:hover, .rub-fda .article_list .cxp-pagination .gla-item-tag, .rub-fda .page-rubric .edito .block-title:before, .rub-fda .page-rubric .edito .block-title:after, .rub-fda .survey .layout-2-col .submit input, .rub-fda .article-wrapper h4, .rub-fda .article_list .cxp-pagination .gla-item-tag, .rub-fda .sticky-footer a.cta { background: #ffb300; }
 
 .rub-fda .twitter, .rub-fda .socials, .rub-fda .article-wrapper h2, .rub-fda #zone2 .block-page .intro h2, .rub-fda .focus2 a, .rub-fda .article-wrapper .lien4, .rub-fda .block-page.list-articles .intro a, .rub-fda .page-rubric .edito a, .rub-fda .page-rubric .edito .block-title, .rub-fda #zone2 .faq p a, .rub-fda #zone2 .faq li a, .rub-fda #zone2 .faq i.icon.icon-plus, .rub-fda #zone2 .faq i.icon.icon-minus, .rub-fda #zone2 .faq a:hover i.icon.icon-plus, .rub-fda #zone2 .faq a:hover i.icon.icon-minus, .rub-fda #zone2 .faq a:hover, .rub-fda .part #zone2 .partner h2, .rub-fda .survey .layout-2-col .intro a, .rub-fda .liste-produit .ql-item, .rub-fda .liste-produit .catal-ex-item .catal-ex-item-brand a { color: #ffb300;  }
 
@@ -2903,8 +2904,6 @@ i.icon-catal.icon-catal-demo:before { display: inline-block; width: 16px; height
 /*factbox FDA*/
 .rub-fda .article-wrapper custom[name="factbox"], .rub-fda .article-wrapper custom[name="factbox"]:after, .rub-fda .article-wrapper custom[name="factbox"]:before { background: #ffb300; }
 .rub-fda .article-wrapper custom[name="factbox"] h4 { color:#ffb300 ;  }
-
-
 
 
 
