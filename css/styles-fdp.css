@@ -2863,9 +2863,9 @@ i.icon-catal.icon-catal-demo:before { display: inline-block; width: 16px; height
 .rub-fda .col-size1 { width: 36.4%; }
 .rub-fda .col-size2 { width: 40.41%; }
 .rub-fda .col-size3 { width: 23.19%; }
-.rub-fda .logo { display: inline-block; width: 213px; height: 110px; background: url(images/logo-fda.png) no-repeat 0 0; margin-top: 2px;
+.rub-fda .logo { display: inline-block; width: 213px; height: 110px; background: url(images/logo-fda-hover.png) no-repeat 0 0; margin-top: 2px;
 }
-.rub-fda .logo:hover { background: url(images/logo-fda-hover.png) no-repeat 0 0; }
+.rub-fda .logo:hover { background: url(images/logo-fda.png) no-repeat 0 0; }
 
 @media only screen and ( -webkit-min-device-pixel-ratio: 2 ), only screen and ( min-device-pixel-ratio: 2 ), only screen and ( min-resolution: 192dpi ) {
 	
