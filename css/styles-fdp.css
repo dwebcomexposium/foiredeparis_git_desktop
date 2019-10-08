@@ -3450,7 +3450,7 @@ li.event-type-li { display: inline-block; }
 .article-wrapper.stopic_full .article-title:after {content: ''; display: inline-block; position: absolute; width: 18px; height: 33px; vertical-align: middle; background: url(images/ico-arrow-down.png) no-repeat 0 0; bottom: 45px; }
 
 
-.article-wrapper.stopic_full .article-title .at-main-title { position: absolute; top: 150px; left: 50%; width: 920px;
+.article-wrapper.stopic_full .article-title .at-main-title { position: absolute; top: 190px; left: 50%; width: 1320px;
 	font-size: 47px; line-height: 1; font-weight: 900; padding:0;
 	letter-spacing: 0; color: #fff; text-transform: uppercase; text-shadow: 3px 3px 7px rgba(0, 0, 0, .35); 
 	-webkit-transform: translate(-50%, -50%); 
