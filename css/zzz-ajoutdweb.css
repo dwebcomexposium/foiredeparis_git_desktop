@@ -19,8 +19,8 @@
   color: #000;
 }
 
-/** CIBLE MA SELECTION POUR FIXER LA TAILLE DANS LE CATALOGUE EXPOSANT ET PRODUIT 20/02/2017 **/
-.node168280 .mod-catal.myselection, .node180491 .mod-catal.myselection{
+/** CIBLE MA SELECTION POUR FIXER LA TAILLE DANS LE CATALOGUE EXPOSANT ET PRODUIT 21/02/2020 **/
+.node168280 .mod-catal.myselection, .node180491 .mod-catal.myselection, .node1306354 .mod-catal.myselection{
  width: 305px;
 }
 
