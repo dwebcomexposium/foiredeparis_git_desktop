@@ -3675,21 +3675,21 @@ body #cxpmClientAccountWidget .widget-text span a { display: block; font-size: 1
 .exposant .catal-ex { width: calc(100% - 240px); padding-left: 50px; margin-top: 113px !important; margin-left: auto; }
 body:not(.front) .catal-ex-item { padding: 47px 0 41px; margin: 0; }
 
-body:not(.front) .mod-catal .catal-ex-item-img,
-body:not(.front) .mod-catal .catal-prd-item-img { min-height: auto; width: auto; margin-right: 26px; }
+.mod-catal:not(.catal-produit) .catal-ex-item-img,
+.mod-catal:not(.catal-produit) .catal-prd-item-img { min-height: auto; width: auto; margin-right: 26px; }
 
-body:not(.front) .mod-catal .catal-ex-item-img a { display: block; width: 180px; height: 135px; padding: 20px; border: 1px solid #ededed; text-align: center; }
-body:not(.front) .mod-catal .catal-ex-item-img img { width: auto; }
+.mod-catal:not(.catal-produit) .catal-ex-item-img a { display: block; width: 180px; height: 135px; padding: 20px; border: 1px solid #ededed; text-align: center; }
+.mod-catal:not(.catal-produit) .catal-ex-item-img img { width: auto; }
 
-body:not(.front) .mod-catal .catal-ex-item-content { margin-top: -6px; }
+.mod-catal:not(.catal-produit) .catal-ex-item-content { margin-top: -6px; }
 
 .exposant .mod-catal .catal-ex-item-group-title { min-height: auto; padding: 0; margin-bottom: 11px; }
 
-body:not(.front) .mod-catal .catal-ex-item-title { font-size: 27px; line-height: 1.2; color: #373737; font-weight: bold; letter-spacing: .05em; text-transform: none; }
-body:not(.front) .mod-catal .catal-ex-item-title a { -webkit-transition: opacity .4s; -o-transition: opacity .4s; transition: opacity .4s; }
+.mod-catal:not(.catal-produit) .catal-ex-item-title { font-size: 27px; line-height: 1.2; color: #373737; font-weight: bold; letter-spacing: .05em; text-transform: none; }
+.mod-catal:not(.catal-produit) .catal-ex-item-title a { -webkit-transition: opacity .4s; -o-transition: opacity .4s; transition: opacity .4s; }
 
-body:not(.front) .mod-catal .catal-ex-item-title a:focus,
-body:not(.front) .mod-catal .catal-ex-item-title a:hover { color: #373737; text-decoration: none; opacity: .8; }
+.mod-catal:not(.catal-produit) .catal-ex-item-title a:focus,
+.mod-catal:not(.catal-produit) .catal-ex-item-title a:hover { color: #373737; text-decoration: none; opacity: .8; }
 
 .exposant .mod-catal .catal-ex-item-desc { width: calc(100% - 215px); padding: 0 !important; margin-right: 0 !important; border-right: 0 !important; }
 .exposant .mod-catal .catal-ex-item-country { display: none; }
@@ -3715,13 +3715,13 @@ body:not(.front) .mod-catal .catal-ex-item-title a:hover { color: #373737; text-
 
 
 /*btn add to selection*/
-body:not(.front) .mod-catal .catal-ex-item-buttons .btn-primary { position: relative; min-width: 120px; height: 35px; padding: 0 40px 0 20px; border-radius: 25px; background: #f8e858; font-size: 13px; line-height: 35px; font-weight: normal; letter-spacing: .05em; color: #2a2a2a; -webkit-transition: opacity .4s; -o-transition: opacity .4s; transition: opacity .4s; }
-body:not(.front) .mod-catal .catal-ex-item-buttons .btn-primary .icon-catal { position: absolute; top: 50%; right: 10px; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; margin-right: 0; width: 20px; height: 20px; background: #fff; border-radius: 100%; }
-body:not(.front) .mod-catal .catal-ex-item-buttons .btn-primary .icon-catal:before { display: none; }
-body:not(.front) .mod-catal .catal-ex-item-buttons .btn-primary .icon-catal:after { backface-visibility: hidden; content: ''; position: absolute; top: 6px; left: 6px; width: 8px; height: 8px; background-image: url(images/plus-alt@2x.png); background-position: center; background-repeat: no-repeat; background-size: 8px 8px; -webkit-transition: -webkit-transform .4s;transition: -webkit-transform .4s;-o-transition: transform .4s;transition: transform .4s;transition: transform .4s, -webkit-transform .4s; }
-body:not(.front) .mod-catal .catal-ex-item-buttons .btn-primary .selection-full .icon-catal:after { content: ''; background-image: url(images/minus-alt@2x.png); }
-body:not(.front) .mod-catal .catal-ex-item-buttons .btn-primary:hover .icon-catal:after { -webkit-transform: rotate(360deg); -ms-transform: rotate(360deg); transform: rotate(360deg); }
-body:not(.front) .mod-catal .catal-ex-item-buttons.is-selected .btn-primary:hover .icon-catal:after { -webkit-transform: rotate(0); -ms-transform: rotate(0); transform: rotate(0); }
+.mod-catal:not(.catal-produit) .catal-ex-item-buttons .btn-primary { position: relative; min-width: 120px; height: 35px; padding: 0 40px 0 20px; border-radius: 25px; background: #f8e858; font-size: 13px; line-height: 35px; font-weight: normal; letter-spacing: .05em; color: #2a2a2a; -webkit-transition: opacity .4s; -o-transition: opacity .4s; transition: opacity .4s; }
+.mod-catal:not(.catal-produit) .catal-ex-item-buttons .btn-primary .icon-catal { position: absolute; top: 50%; right: 10px; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; margin-right: 0; width: 20px; height: 20px; background: #fff; border-radius: 100%; }
+.mod-catal:not(.catal-produit) .catal-ex-item-buttons .btn-primary .icon-catal:before { display: none; }
+.mod-catal:not(.catal-produit) .catal-ex-item-buttons .btn-primary .icon-catal:after { backface-visibility: hidden; content: ''; position: absolute; top: 6px; left: 6px; width: 8px; height: 8px; background-image: url(images/plus-alt@2x.png); background-position: center; background-repeat: no-repeat; background-size: 8px 8px; -webkit-transition: -webkit-transform .4s;transition: -webkit-transform .4s;-o-transition: transform .4s;transition: transform .4s;transition: transform .4s, -webkit-transform .4s; }
+.mod-catal:not(.catal-produit) .catal-ex-item-buttons .btn-primary .selection-full .icon-catal:after { content: ''; background-image: url(images/minus-alt@2x.png); }
+.mod-catal:not(.catal-produit) .catal-ex-item-buttons .btn-primary:hover .icon-catal:after { -webkit-transform: rotate(360deg); -ms-transform: rotate(360deg); transform: rotate(360deg); }
+.mod-catal:not(.catal-produit) .catal-ex-item-buttons.is-selected .btn-primary:hover .icon-catal:after { -webkit-transform: rotate(0); -ms-transform: rotate(0); transform: rotate(0); }
 
 
 .exposant .mod-catal .catal-ex-item-cat { width: 172px; margin-top: 22px; }
