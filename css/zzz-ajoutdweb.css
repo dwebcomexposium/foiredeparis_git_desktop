@@ -319,3 +319,7 @@ font-size:45px;
 .article-content table.table4 tbody tr td:first-child {
     width: 322px;
 }
+
+/***Catalogue new publi - cacher date FDP 2020***/
+.CatalogAppointmentBar-date {
+display:none;}
