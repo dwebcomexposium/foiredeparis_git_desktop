@@ -1,4 +1,3 @@
-
 /* ------------------------------------------------------------ *\
 	Fonts
 \* ------------------------------------------------------------ */
@@ -2874,21 +2873,20 @@ i.icon-catal.icon-catal-demo:before { display: inline-block; width: 16px; height
 
 .rub-fda .header { background: #ffb300; }
 .rub-fda .link span { padding-top: 18px; font-size: 50px; color: #ffb300; text-align: }
-.rub-fda .header .header-inner { position: relative; padding-left: 283px; }
+.rub-fda .header .header-inner { position: relative; padding-left: 223px; }
 .rub-fda .col-size1 { width: 36.4%; }
 .rub-fda .col-size2 { width: 40.41%; }
 .rub-fda .col-size3 { width: 23.19%; }
-.rub-fda .logo { display: inline-block; width: 264px; height: 108px; background: url(images/fda-logo-w.png) no-repeat 0 0; margin-top: 2px;
-}
-.rub-fda .logo:hover { background: url(images/fda-logo.png) no-repeat 0 0; }
+.rub-fda .logo { display: inline-block; width: 179px; height: 122px; background: url(images/logo-foire-automne.svg) no-repeat 0 0; margin-top: -5px; }
+/*.rub-fda .logo:hover { background: url(images/fda-logo.png) no-repeat 0 0; }*/
 
-@media only screen and ( -webkit-min-device-pixel-ratio: 2 ), only screen and ( min-device-pixel-ratio: 2 ), only screen and ( min-resolution: 192dpi ) {
+/*@media only screen and ( -webkit-min-device-pixel-ratio: 2 ), only screen and ( min-device-pixel-ratio: 2 ), only screen and ( min-resolution: 192dpi ) {
 	
-	.rub-fda .logo { background: url(images/fda-logo-w@2x.png) no-repeat 0 0; 
+	.rub-fda .logo { background: url(images/logo-foire-automne.svg) no-repeat 0 0; 
 		-webkit-background-size: 100% 100%; 
 		        background-size: 100% 100%; 
 	}
-}
+}*/
 
 
 .rub-fda .tpsfort .gla-item-content, .rub-fda .tpsfort .gla-item:hover .gla-item-content, .rub-fda .tpsfort .gla-item > a:hover .gla-item-content, 
@@ -2900,7 +2898,7 @@ i.icon-catal.icon-catal-demo:before { display: inline-block; width: 16px; height
 
 .rub-fda .edito { position: relative; padding-bottom: 53px; font-size: 16px; line-height: 1.38; font-weight: 300; color: #373737; text-align: center; z-index: 2; background: url(images/bg-pattern.png) repeat-x 0 120px; padding-top: 120px; }
 
-.rub-fda .edito .block-title { position: relative; width: 264px; height: 108px; top: -70px; margin: 0 auto -29px; background: url(images/fda-logo-b.png) 0 0 no-repeat #ffffff; font-size: 0; line-height: 0; text-indent: -4004px; }
+.rub-fda .edito .block-title { position: relative; width: 199px; height: 122px; top: -79px; margin: 0 auto; background: url(images/logo-foire-automne-orange.svg) center no-repeat #ffffff; font-size: 0; line-height: 0; text-indent: -4004px; text-align: center; }
 .rub-fda .edito .block-title:before, .rub-fda .edito .block-title:after { display: none; }
 
 
