@@ -1,3 +1,11 @@
+/* @override 
+	https://www.foiredeparis.fr/theme/foiredeparis_git_desktop/css/styles-fdp.css
+	 */
+
+/*<link rel="stylesheet" type="text/css" href="/theme/foiredeparis_git_desktop/css/styles-fdp.css">*/
+
+
+
 /* ------------------------------------------------------------ *\
 	Fonts
 \* ------------------------------------------------------------ */
@@ -602,9 +610,17 @@ a:hover .ico-newspaper { background: url(images/ico-newspaper_hover.png) no-repe
 
 
 .linkcall { position: relative; display: block; padding: 27px 0 0 120px; margin: 8px 0 0 10px; font-size: 11px; letter-spacing: 0.3em; color: #fff; text-transform: uppercase; text-decoration: none; }
+
+.rub-fda .linkcall { padding: 20px 0 0 120px;  }
+
+
 .linkcall:hover span:before { width: 130px; height: 130px; top: -15px; left: -15px; }
 
 .linkcall strong { display: block; margin-bottom: 2px; font-size: 22px; font-weight: 700; letter-spacing: 0; line-height: 21px; }
+
+.rub-fda .linkcall strong { line-height: 25px; }
+
+
 .linkcall span { position: absolute; width: 100px; height: 100px; top: 0; left: 0; padding-top: 23px; border-radius: 50%; font-size: 30px; font-weight: 300; letter-spacing: 0; color: #ea1e4e; text-align: center; background: #fff; }
 .linkcall span:before { content: ''; position: absolute; width: 100px; height: 100px; top: 0; left: 0; border-radius: 50%; border: 3px solid #fff; transition: .2s; }
 
@@ -2873,11 +2889,11 @@ i.icon-catal.icon-catal-demo:before { display: inline-block; width: 16px; height
 
 .rub-fda .header { background: #ffb300; }
 .rub-fda .link span { padding-top: 18px; font-size: 50px; color: #ffb300; text-align: }
-.rub-fda .header .header-inner { position: relative; padding-left: 223px; }
-.rub-fda .col-size1 { width: 36.4%; }
-.rub-fda .col-size2 { width: 40.41%; }
+.rub-fda .header .header-inner { position: relative; padding-left: 340px; }
+.rub-fda .col-size1 { width: 41.41%; }
+.rub-fda .col-size2 { width: 31.4%; }
 .rub-fda .col-size3 { width: 23.19%; }
-.rub-fda .logo { display: inline-block; width: 179px; height: 122px; background: url(images/logo-foire-automne.svg) no-repeat 0 0; margin-top: -5px; }
+.rub-fda .logo { display: inline-block; width: 322px; height: 129px; background: url(images/logo-foire-automne-fdp.svg) no-repeat 0 0; margin-top: -8px; }
 /*.rub-fda .logo:hover { background: url(images/fda-logo.png) no-repeat 0 0; }*/
 
 /*@media only screen and ( -webkit-min-device-pixel-ratio: 2 ), only screen and ( min-device-pixel-ratio: 2 ), only screen and ( min-resolution: 192dpi ) {
