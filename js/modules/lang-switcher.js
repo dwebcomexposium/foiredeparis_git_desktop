@@ -7,32 +7,53 @@
 	@last-update: 2020-07-23
  */
 
-;(function($) {
+;(function ($) {
+  function updateLangSwitcher(switcher) {
+    $('link[rel="alternate"][hreflang]').each(function () {
+      const lang = $(this).attr("hreflang");
+      const url = $(this).attr("href");
+      const link = switcher.find(`li.ls-lang-${lang} > a`).attr("href", url);
+    });
+  }
 
-	function updateLangSwitcher (switcher) {
-		$('link[rel="alternate"][hreflang]').each(function () {
-			const lang = $(this).attr('hreflang');
-			const url = $(this).attr('href');
-			const link = switcher.find(`li.ls-lang-${lang} > a`).attr('href', url);
-		});
-	}
+  $(".js-lang-switcher")
+    .each(function () {
+      var $_this = $(this);
 
-	$('.js-lang-switcher').each(function(){
+      // button creation
+      $_this
+        .find("ul")
+        .before(
+          '<button class="ls-trigger js-toggle-trigger" type="button" title="' +
+            $_this.data("title") +
+            '">' +
+            $_this.find(".is-active").text() +
+            "</button>"
+        );
 
-		var $_this = $(this);
+      // accessibility (tab nav)
+      $_this.find("a:last").on("blur", function () {
+        $_this.find(".js-toggle-trigger").trigger("click");
+      });
 
-		// button creation
-		$_this.find('ul').before('<button class="ls-trigger js-toggle-trigger" type="button" title="'+$_this.data('title')+'">'+$_this.find('.is-active').text()+'</button>');
+      // update lang switcher url when title change for comexposium connect 2
+      let target = document.querySelector("title");
+      let observer = new MutationObserver(function (mutations) {
+        mutations.forEach(function (mutation) {
+          setTimeout(function () {
+            updateLangSwitcher($_this);
+          }, 500);
+        });
+      });
 
-		// accessibility (tab nav)
-		$_this.find('a:last').on('blur', function(){
-			$_this.find('.js-toggle-trigger').trigger('click');
-		});
+      let config = {
+        childList: true,
+      };
 
-		// update lang switcher url when title change for comexposium connect 2
-		$('head title').on('DOMSubtreeModified', setTimeout(function () { updateLangSwitcher($_this) }, 500));
-		updateLangSwitcher($_this)
-	})
-	.toggleSlide();
-
+      observer.observe(target, config);
+      setTimeout(function () {
+        updateLangSwitcher($_this);
+      }, 500);
+    })
+    .toggleSlide();
 })(jQuery);
