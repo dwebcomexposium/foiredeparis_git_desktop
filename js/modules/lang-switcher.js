@@ -13,7 +13,7 @@
 		$('link[rel="alternate"][hreflang]').each(function () {
 			const lang = $(this).attr('hreflang');
 			const url = $(this).attr('href');
-			const link = switcher.find(`li.ls-lang-${lang} a`).attr('href', url);
+			const link = switcher.find(`li.ls-lang-${lang} > a`).attr('href', url);
 		});
 	}
 
