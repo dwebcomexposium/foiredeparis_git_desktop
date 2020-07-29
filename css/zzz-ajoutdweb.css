@@ -1,4 +1,4 @@
-/*MAJ 01/09/2017 */
+/*MAJ 29/07/2020 */
 
 .tt-dropdown-menu {
     margin-top: 14px !important;
@@ -321,5 +321,5 @@ font-size:45px;
 }
 
 /***Catalogue new publi - cacher date FDP 2020***/
-.CatalogAppointmentBar-date {
+.node1374332 .CatalogAppointmentBar-date {
 display:none;}
