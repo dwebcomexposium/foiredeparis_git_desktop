@@ -2891,7 +2891,7 @@ i.icon-catal.icon-catal-demo:before { display: inline-block; width: 16px; height
 .rub-fda .link span { padding-top: 18px; font-size: 50px; color: #ffb300; text-align: }
 .rub-fda .header .header-inner { position: relative; padding-left: 330px; }
 .rub-fda .col-size1 { width: 41.41%; }
-.rub-fda .col-size2 { width: 31.4%; }
+/*.rub-fda .col-size2 { width: 31.4%; }*/
 .rub-fda .col-size3 { width: 23.19%; }
 .rub-fda .logo { display: inline-block; width: 322px; height: 129px; background: url(images/logo-foire-automne-lepine2021.svg) no-repeat 0 0; margin-top: -8px; }
 /*SAVE - .rub-fda .logo { display: inline-block; width: 322px; height: 129px; background: url(images/logo-foire-automne.svg) no-repeat 0 0; margin-top: -8px; }*/
