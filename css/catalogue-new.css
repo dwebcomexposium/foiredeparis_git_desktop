@@ -1,5 +1,5 @@
 /*New catalog*/
 
 /*widget*/
- .EmbedWidgetWrapper  h3.SliderItem-name.textAccent
-{background : none;}
+.EmbedWidgetWrapper  h3.SliderItem-name.textAccent
+{background : none!important;}
