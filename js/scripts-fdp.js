@@ -6,7 +6,7 @@
 	var pentagonFirst = '<svg width="354" height="354" viewBox="-1 0 101 100"><defs><clipPath id="shape';
 	var pentagonSecond = '"><path d="M20,0 L80,0 L100,60 L50,100 L0,60z" /></clipPath></defs>';
 	var num = 1;
-	var searchPlaceholder = $('html').attr('lang') === 'fr' ? 'Recherche, produit, exposant...' : 'Search, products, exhibitors…';
+	var searchPlaceholder = $('html').attr('lang') === 'fr' ? 'Recherche...' : 'Search...';
 	var player;
 	
 	$('.gsf-input-line input').attr('placeholder', searchPlaceholder);
