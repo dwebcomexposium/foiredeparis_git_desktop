@@ -323,3 +323,7 @@ font-size:45px;
 /***Catalogue new publi - cacher date FDP 2020***/
 .node1374332 .CatalogAppointmentBar-date {
 display:none;}
+
+.list-articles.tpsfort .block-title:after {
+    content: 'Foire de Paris 2022';
+}
