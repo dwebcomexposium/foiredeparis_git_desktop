@@ -3,3 +3,17 @@
 /*widget*/
 .EmbedWidgetSlider h3
 {background : none!important;}
+
+/*Catalogue 2022*/
+
+/*Titre H1*/
+#catalog-v2 .CatalogResultsList-searchcontainer.bgTint h1.textCenter {
+  color: #fff!important;
+} 
+#catalog-v2 .bgTint {
+    background-color: #ea1e4e!important;
+}
+/*Mise en avant RS*/
+#catalog-v2 .CatalogCard-title.CatalogCard-title--premium, #catalog-v2 h3.CatalogCardLine-title.textAccent.CatalogCard-title--premium {
+    background: #ea1e4e!important;
+}
