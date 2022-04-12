@@ -4,7 +4,7 @@
 .EmbedWidgetSlider h3
 {background : none!important;}
 
-/*Catalogue 2022*/
+/*Catalogue FDP 2022*/
 
 /*Titre H1*/
 #catalog-v2 .CatalogResultsList-searchcontainer.bgTint h1.textCenter {
@@ -17,3 +17,9 @@
 #catalog-v2 .CatalogCard-title.CatalogCard-title--premium, #catalog-v2 h3.CatalogCardLine-title.textAccent.CatalogCard-title--premium {
     background: #ea1e4e!important;
 }
+
+/*cacher encart présent sur Foire d'Automne 2021 */
+ 
+.rub-fda #catalog-v2.catalog-scope div.container div.Container-inner section.CatalogAppointmentBar {
+    display: none !important;}
+ 
