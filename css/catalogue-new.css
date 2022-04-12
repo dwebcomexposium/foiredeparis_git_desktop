@@ -18,6 +18,12 @@
     background: #ea1e4e!important;
 }
 
+/*Catalogue FDA 2021*/
+
+.rub-fda #catalog-v2 .bgTint {
+  background-color: #ffb300 !important;
+}
+
 /*cacher encart présent sur Foire d'Automne 2021 */
  
 .rub-fda #catalog-v2.catalog-scope div.container div.Container-inner section.CatalogAppointmentBar {
