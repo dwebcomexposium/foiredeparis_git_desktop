@@ -327,3 +327,6 @@ display:none;}
 .list-articles.tpsfort .block-title:after {
     content: 'Foire de Paris 2022';
 }
+.counter span {
+    font-size: 0px;
+}
