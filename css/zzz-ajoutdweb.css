@@ -337,6 +337,7 @@ display:none;}
 
 .rub-fda .focus2 a:before, .focus2 a:hover:before {
     background: url(images/ico-arrow-right-orange.png) no-repeat 0 0;
+    background-size: 100%;
  }
 .rub-fda .focus2 a:hover{
     background: white;
