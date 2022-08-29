@@ -335,6 +335,9 @@ display:none;}
     border: 1px solid #ffb300;
 }
 
-.rub-fda .focus2 a:before {
+.rub-fda .focus2 a:before, .focus2 a:hover:before {
     background: url(images/ico-arrow-right-orange.png) no-repeat 0 0;
+ }
+.rub-fda .focus2 a:hover{
+    background: white;
  }
