@@ -342,3 +342,6 @@ display:none;}
 .rub-fda .focus2 a:hover{
     background: white;
  }
+.cachenav header.site-banner {
+    display: none;
+}
