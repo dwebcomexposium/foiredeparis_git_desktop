@@ -346,9 +346,10 @@ display:none;}
     display: none;
 }
 .ico-mouse {
-    background: url(images/mouse-pointer.png) no-repeat 0 0;
+background: url(images/mouse-pointer.png) no-repeat 0 0;
     display: inline-block;
-    width: 23px;
-    height: 41px;
+    width: 57px;
+    height: 73px;
     vertical-align: middle;
+    background-size: 89%;
 }
