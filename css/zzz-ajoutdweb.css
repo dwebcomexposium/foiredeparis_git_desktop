@@ -353,3 +353,9 @@ background: url(images/mouse-pointer.png) no-repeat 0 0;
     vertical-align: middle;
     background-size: 89%;
 }
+.rub-fda .header .header-inner {
+    padding-left: 250px;
+}
+.rub-fda .logo {
+    background: url(images/logo-foire-automne-lepine2022.svg) no-repeat 0 0;
+}
