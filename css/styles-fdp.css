@@ -600,10 +600,10 @@ a:hover .ico-newspaper { background: url(images/ico-newspaper_hover.png) no-repe
 	Link
 \* ------------------------------------------------------------ */
 
-.link { position: relative; display: block; padding: 15px 0 0 120px; margin: 8px 0 0 10px; font-size: 11px; letter-spacing: 0.3em; color: #fff; text-transform: uppercase; text-decoration: none; }
+.link { position: relative; display: block; padding: 18px 0 0 120px; margin: 8px 0 0 10px; font-size: 11px; letter-spacing: 0.3em; color: #fff; text-transform: uppercase; text-decoration: none; }
 .link:hover span:before { width: 130px; height: 130px; top: -15px; left: -15px; }
 
-.link strong { display: block; margin-bottom: -4px; font-size: 32px; font-weight: 300; letter-spacing: 0; }
+.link strong { display: block; margin-bottom: -4px; font-size: 32px; font-weight: 300; letter-spacing: 0; line-height: 0.95; }
 .link span { position: absolute; width: 100px; height: 100px; top: 0; left: 0; padding-top: 28px; padding-left: 10px;
 	border-radius: 50%; font-size: 30px; font-weight: 300; letter-spacing: 0; color: #ea1e4e; text-align: center; background: #fff; }
 .link span:before { content: ''; position: absolute; width: 100px; height: 100px; top: 0; left: 0; border-radius: 50%; border: 3px solid #fff; transition: .2s; }
@@ -1067,8 +1067,8 @@ body.loaded .main-navigation { display: block; }
 .partner.partner-home .link-view-all:hover { background: #373737; }
 
 .partner.partner-home .main-title { font-size: 34px; position: relative; display: inline-block; top: -35px; padding: 0 41px 14px; background: #fff; }
-.partner.partner-home .main-title:after { content: 'Foire de Paris'; display: block; margin-top: -5px; font-size: 13px; font-weight: 300; letter-spacing: 0.2em; }
-.rub-fda .partner.partner-home .main-title:after { content: "Foire d'Automne"; display: block; margin-top: -5px; font-size: 13px; font-weight: 300; letter-spacing: 0.2em; }
+.partner.partner-home .main-title:after { content: 'Foire de Paris 2019'; display: block; margin-top: -5px; font-size: 13px; font-weight: 300; letter-spacing: 0.2em; }
+.rub-fda .partner.partner-home .main-title:after { content: "Hors-Série Maison by Foire de Paris"; display: block; margin-top: -5px; font-size: 13px; font-weight: 300; letter-spacing: 0.2em; }
 
 
 /* ------------------------------------------------------------ *\
@@ -2889,13 +2889,11 @@ i.icon-catal.icon-catal-demo:before { display: inline-block; width: 16px; height
 
 .rub-fda .header { background: #ffb300; }
 .rub-fda .link span { padding-top: 18px; font-size: 50px; color: #ffb300; text-align: }
-.rub-fda .header .header-inner { position: relative; padding-left: 330px; }
+.rub-fda .header .header-inner { position: relative; padding-left: 340px; }
 .rub-fda .col-size1 { width: 41.41%; }
-/*.rub-fda .col-size2 { width: 31.4%; }*/
+.rub-fda .col-size2 { width: 31.4%; }
 .rub-fda .col-size3 { width: 23.19%; }
-.rub-fda .logo { display: inline-block; width: 322px; height: 129px; background: url(images/logo-foire-automne-lepine2021.svg) no-repeat 0 0; margin-top: -8px; }
-/*SAVE - .rub-fda .logo { display: inline-block; width: 322px; height: 129px; background: url(images/logo-foire-automne.svg) no-repeat 0 0; margin-top: -8px; }*/
-/*.rub-fda .logo { display: inline-block; width: 322px; height: 129px; background: url(images/logo-foire-automne-fdp.svg) no-repeat 0 0; margin-top: -8px; }*/
+.rub-fda .logo { display: inline-block; width: 322px; height: 129px; background: url(images/logo-foire-automne-fdp.svg) no-repeat 0 0; margin-top: -8px; }
 /*.rub-fda .logo:hover { background: url(images/fda-logo.png) no-repeat 0 0; }*/
 
 /*@media only screen and ( -webkit-min-device-pixel-ratio: 2 ), only screen and ( min-device-pixel-ratio: 2 ), only screen and ( min-resolution: 192dpi ) {
@@ -4723,5 +4721,8 @@ body.catalogue .mod-catal .esf-tree li label:before { content: ''; position: abs
 .on-demand h2:before { content: ''; width: 7px; height: 80px; display: block; position: absolute; top: 110px; left: 30px; background-color: #0059DB;  }
 .on-demand .btn {  font-size: 12px; font-weight: 700; margin-top: 40px; padding: 15px 15px 15px 25px; line-height: 1.2; }
 .on-demand .btn-teritary i { position: relative; top: -5px; margin-left: 10px; float: right; }
+
+
+
 
 .rub-fda .site-banner.is-stuck .col-size3 {display: none; }
