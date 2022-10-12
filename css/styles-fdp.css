@@ -4724,3 +4724,4 @@ body.catalogue .mod-catal .esf-tree li label:before { content: ''; position: abs
 .on-demand .btn {  font-size: 12px; font-weight: 700; margin-top: 40px; padding: 15px 15px 15px 25px; line-height: 1.2; }
 .on-demand .btn-teritary i { position: relative; top: -5px; margin-left: 10px; float: right; }
 
+.rub-fda .site-banner.is-stuck .col-size3 {display: none; }
