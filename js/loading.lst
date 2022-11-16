@@ -5,7 +5,6 @@ vendor/mustache.js/jquery.mustache.js
 vendor/masonry/masonry.pkgd.min.js
 vendor/imagesloaded/imagesloaded.pkgd.min.js
 vendor/knacss
-cookies-warning.min.js
 modules/*
 wb/*
 scripts-fdp.js
