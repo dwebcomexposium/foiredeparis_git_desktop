@@ -362,3 +362,7 @@ background: url(images/mouse-pointer.png) no-repeat 0 0;
 .rub-fda .col-size3 {
     width: 10.19%;
 }
+
+.partner.partner-home .main-title:after {
+    content: 'Foire de Paris 2022';
+}
