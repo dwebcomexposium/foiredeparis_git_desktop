@@ -342,7 +342,7 @@ display:none;}
 .rub-fda .focus2 a:hover{
     background: white;
  }
-.cachenav .site-banner {
+.cachenav .site-banner, .cachenav .article-navigation {
     display: none;
 }
 .ico-mouse {
