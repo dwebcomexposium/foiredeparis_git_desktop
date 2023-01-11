@@ -366,3 +366,10 @@ background: url(images/mouse-pointer.png) no-repeat 0 0;
 .partner.partner-home .main-title:after {
     content: 'Foire de Paris 2022';
 }
+.header .header-inner span {
+    font-size: 15px;
+    letter-spacing: 0.15em;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
