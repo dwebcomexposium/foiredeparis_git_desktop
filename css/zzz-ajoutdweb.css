@@ -370,3 +370,6 @@ background: url(images/mouse-pointer.png) no-repeat 0 0;
     text-transform: uppercase;
     text-decoration: none;
 }
+.counters-secondary:before, .counters-secondary:after {
+    display: none;
+ }
