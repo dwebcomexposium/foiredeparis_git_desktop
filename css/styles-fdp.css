@@ -4726,3 +4726,7 @@ body.catalogue .mod-catal .esf-tree li label:before { content: ''; position: abs
 
 
 .rub-fda .site-banner.is-stuck .col-size3 {display: none; }
+
+.list-articles.tpsfort .block-title:after {
+    content: 'Foire de Paris 2023';
+}
