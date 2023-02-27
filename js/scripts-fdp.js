@@ -325,9 +325,9 @@
 	}
 
 	function fixFullHeight($selector) {
-		$selector.each(function(){
-			$(this).height($win.height() - $('.site-banner').height());
-		});
+//		$selector.each(function(){
+//			$(this).height($win.height() - $('.site-banner').height());
+//		});
 	}
 
 	$doc.ready(function() {
@@ -764,3 +764,31 @@
 				wrapProductDetails();
 			});
 		})(jQuery, window, document);
+//Remove Slider
+$(".carrousel-home .cxp-swiper").removeClass("cxp-swiper").addClass('hero-swiper');
+
+let $heroSlider = $('.hero-swiper')
+$heroSlider.find('.aos-init').removeClass('.aos-init');
+
+let reIntHeroSlier = () => {
+	$heroSlider.attr("data-speed", "500")
+	$heroSlider.attr("data-auto-delay", "3500")
+
+	let $content = $heroSlider.find('.la-item-title a')
+
+	$content.each( (index, element)=>{
+		let $element = $(element);
+		let title = $element.html();
+		$element.html(
+			`
+			<span><span><span>${title}</span></span></span>
+			<span><span><span>${title}</span></span></span>
+		`)
+	})
+
+	$heroSlider.cxpSwiper();
+}
+
+$(window).on('load', () =>{
+	reIntHeroSlier ();
+})
