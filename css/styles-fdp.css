@@ -5123,5 +5123,5 @@ cloudflare-app[app="addtoany"][type="floating"] .a2a_svg, cloudflare-app[app="ad
 }
 
 cloudflare-app[app="addtoany"][type="floating"] .a2a_kit.a2a_vertical_style {
-    margin-right: 0;
+    margin-right: 0!important;
 }
