@@ -509,7 +509,7 @@ a:hover .ico-newspaper { background: url(images/ico-newspaper_hover.png) no-repe
 /*.main-navigation .mn-menu-item .mn-link.is-active span { opacity: .5; }*/
 
 /*.main-navigation .mn-menu-item:last-child .mn-menu-submenu { left: auto; right: 0; }*/
-.main-navigation .mn-menu-item + .mn-menu-item:after { content: ''; position: absolute; width: 4px; height: 4px; top: 15px; left: -2px; border-radius: 50%; opacity: .2; background: #fff; }
+.main-navigation .mn-item-lvl-1:after { content: ''; position: absolute; width: 4px; height: 4px; top: 15px; left: -2px; border-radius: 50%; opacity: .2; background: #fff; }
 
 /*.main-navigation .mn-menu > .mn-menu-item:nth-child(4) > .mn-link { padding: 0 20px 17px; }
 .main-navigation .mn-menu > .mn-menu-item:last-child > .mn-link  { padding: 0 20px 17px; }*/
@@ -616,10 +616,14 @@ a:hover .ico-newspaper { background: url(images/ico-newspaper_hover.png) no-repe
 	Link
 \* ------------------------------------------------------------ */
 
-.link { position: relative; display: block; padding: 29px 0 0 120px; margin: 8px 0 7 10px; font-size: 12px; letter-spacing: 0.3em; color: #fff; text-transform: uppercase; text-decoration: none; }
+.link { position: relative; display: block; padding: 17px 0 0 120px; margin: 8px 0 7 10px; font-size: 12px; letter-spacing: 0.3em; color: #fff; text-transform: uppercase; text-decoration: none; }
 .link:hover span:before { width: 130px; height: 130px; top: -15px; left: -15px; }
 
 .link strong { display: block; margin-bottom: 4px; font-size: 32px; font-weight: 700; letter-spacing: 0; line-height: 0.95; }
+.link b { display: block; margin-bottom: 0px; font-size: 13px; text-transform: none; letter-spacing: 1px; }
+.link i { display: block; font-size: 13px; text-transform: none; letter-spacing: 0; }
+
+
 .link span { position: absolute; width: 100px; height: 100px; top: 7px; left: 0; padding-top: 12px; padding-left: 10px;
 	border-radius: 50%; font-size: 55px; font-weight: 700; letter-spacing: 0; color: #ea1e4e; text-align: center; background: #fff; }
 .link span:before { content: ''; position: absolute; width: 100px; height: 100px; top: 0; left: 0; border-radius: 50%; border: 1px solid #fff; transition: .2s; }
