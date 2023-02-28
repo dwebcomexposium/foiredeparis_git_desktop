@@ -5106,3 +5106,22 @@ li:hover > .mn-menu-submenu { margin-top: 0 !important; opacity: 1; visibility: 
 
 
 .block.quicklinks.visit { display: none; }
+
+
+
+cloudflare-app[app="addtoany"][type="floating"] .a2a_kit.a2a_vertical_style {
+    margin-right: 0;
+    background: #ea1e4e;
+    border-radius: 0;
+    padding: 7px 3px 7px 5px;
+}
+
+cloudflare-app[app="addtoany"][type="floating"] .a2a_svg, cloudflare-app[app="addtoany"][type="floating"] .a2a_count {
+    border-radius: 17.00px!important;
+    width: 25px!important;
+    height: 25px!important;
+}
+
+cloudflare-app[app="addtoany"][type="floating"] .a2a_kit.a2a_vertical_style {
+    margin-right: 0;
+}
