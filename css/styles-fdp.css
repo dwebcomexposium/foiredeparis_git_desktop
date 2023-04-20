@@ -4889,8 +4889,9 @@ body.catalogue .mod-catal .esf-tree li label:before { content: ''; position: abs
 /*cta big*/
 .header-box { position: fixed; right: 0; top: 217px; right: 20px; z-index: 99; color: #fff; font-size: 10px; letter-spacing: .12em; line-height: 1.22; text-transform: uppercase; font-weight: 800; text-align: center; transition: top 0.4s 0.05s; }
 .header-box a { position: relative; display: block; text-decoration: none; padding: 17px 0 0; min-width: 117px; min-height: 117px; color: #fff; }
-.header-box a:before { content: ''; z-index: -1; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: #0059DB; transition: .3s; border-radius: 100px; }
-.header-box a:hover:before { transform: scale(1.1); background: #063a86; }
+.header-box a:before { content: ''; z-index: -1; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: #e91d4e; transition: .3s; border-radius: 100px; border: 4px solid #ffffff;
+}
+.header-box a:hover:before { transform: scale(1.1); background: #d61743; }
 
 
 .header-box .ico-eye { display: inline-block; width: 12px; height: 12px; border-radius: 50%; background-color: transparent; position: absolute; top: 6px; left: 7px; }
